@@ -478,7 +478,7 @@ class Route {
             'target'      => 'https://www.caps.in.tum.de/lehre/ws19/praktika/asp/',
         ],
         'pse'          => [
-            'description' => 'Patterns',
+            'description' => 'Patterns in Software Engineering',
             'target'      => 'https://ase.in.tum.de/lehrstuhl_1/teaching/1138-patterns-in-software-engineering-ws20-21',
         ],
         'med1'         => [
