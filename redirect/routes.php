@@ -678,6 +678,7 @@ class Route {
             'film',
             'set',
             'slam',
+            'panopto',
         ],
         'Electives'   => [
             'pl',
