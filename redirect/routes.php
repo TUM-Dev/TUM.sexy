@@ -597,7 +597,7 @@ class Route {
         'sp-ge'          => 'ge-sp',
         'roomfinder'     => 'finder',
         'patterns'       => 'pse',
-        'pat'            => 'pat',
+        'pat'            => 'pse',
         'ai'             => 'ki',
         'zoom'           => 'conf',
         'kreutz'         => 'julius',
