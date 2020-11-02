@@ -716,7 +716,7 @@ class Route {
             'tms',
             'ml',
             'ki',
-            'pat',
+            'pse',
             'cvvm',
             'cvmvg',
             'vt',
