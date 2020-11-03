@@ -24,11 +24,11 @@ class Route {
         ],
         'c'            => [
             'description' => 'TUM Online',
-            'target'      => 'https://campus.tum.de/tumonline/anmeldung.durchfuehren',
+            'target'      => 'https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/login',
         ],
         'm'            => [
             'description' => 'Moodle',
-            'target'      => 'https://www.moodle.tum.de/auth/shibboleth/index.php',
+            'target'      => 'https://www.moodle.tum.de/Shibboleth.sso/Login?providerId=https://tumidp.lrz.de/idp/shibboleth&target=https://www.moodle.tum.de/auth/shibboleth/index.php',
         ],
         'o'            => [
             'description' => 'TUM Opac',
@@ -52,7 +52,7 @@ class Route {
         ],
         'numprog'      => [
             'description' => 'Numerisches Programmieren',
-            'moodle_id'   => '49337',
+            'moodle_id'   => '53128',
         ],
         'websec'       => [
             'description' => 'WebApplication Security Bachelor Praktikum',
@@ -124,11 +124,11 @@ class Route {
         ],
         'info1'        => [
             'description' => 'Einführung in die Informatik 1',
-            'moodle_id'   => '49563',
+            'moodle_id'   => '58145',
         ],
         'pgdp'         => [
             'description' => 'Praktikum Grundlagen der Programmierung (Moodle-Kurs)',
-            'moodle_id'   => '49563',
+            'moodle_id'   => '58145',
         ],
         'era'          => [
             'description' => 'Einführung in die Rechnerarchitektur',
@@ -205,10 +205,6 @@ class Route {
             'description' => 'Grundlegende Algorithmen und Datenstrukturen',
             'target'      => 'https://www.moodle.tum.de/course/view.php?id=53358',
             'moodle_id'   => '53358',
-        ],
-        'gadjudge'     => [
-            'description' => 'TUMJudge - Grundlegende Algorithmen und Datenstrukturen',
-            'target'      => 'https://judge.in.tum.de/gad/public/',
         ],
         'linalg'       => [
             'description' => 'Lineare Algebra für Informatik',
@@ -302,7 +298,7 @@ class Route {
         ],
         'adlr'         => [
             'description' => 'Advanced Deep Learning for Robotics',
-            'target'      => 'https://bbaeuml.github.io/tum-adlr-ss20/',
+            'target'      => 'https://bbaeuml.github.io/tum-adlr/adlr/index.html',
         ],
         'diversity'    => [
             'description' => 'Diversity & Queer Referat',
@@ -326,7 +322,7 @@ class Route {
         ],
         'wahl'         => [
             'description' => 'Hochschulwahlen',
-            'target'      => 'https://www.asta.tum.de/wahl/',
+            'target'      => 'https://www.sv.tum.de/wahl/',
         ],
         'agt'          => [
             'description' => 'Algorithmic Game Theory',
@@ -339,10 +335,6 @@ class Route {
         'pride'        => [
             'description' => 'TUM Diversity & Queer',
             'target'      => 'https://www.facebook.com/events/599246697252806/',
-        ],
-        'mario'        => [
-            'description' => 'Mario im tu film',
-            'target'      => 'https://www.facebook.com/events/2186204174962290/',
         ],
         'matching'     => [
             'description' => 'IN.TUM-Matching-System',
@@ -487,14 +479,21 @@ class Route {
             'description' => 'Aspekte der systemnahen Programmierung bei der Spieleentwicklung',
             'target'      => 'https://www.caps.in.tum.de/lehre/ws19/praktika/asp/',
         ],
-        'pat'          => [
-            'description' => 'Patterns',
-            'target'      => 'https://ase.in.tum.de/lehrstuhl_1/teaching/winter-2018-19?id=998',
-            'moodle_id'   => '49541',
+        'pse'          => [
+            'description' => 'Patterns in Software Engineering',
+            'target'      => 'https://ase.in.tum.de/lehrstuhl_1/teaching/1138-patterns-in-software-engineering-ws20-21',
         ],
         'med1'         => [
             'description' => 'Medizin 1',
             'moodle_id'   => '52166',
+        ],
+        'med2'         => [
+            'description' => 'Medizin II (Krankheitslehre, klinische Propädeutik, Einführung in die Medizinische Informatik)',
+            'moodle_id'   => '56092',
+        ],
+        'cvmvg'         => [
+            'description' => 'Computer Vision II: Multiple View Geometry',
+            'target'      => 'https://vision.in.tum.de/teaching/ss2020/mvg2020',
         ],
         'cvvm'         => [
             'description' => 'Computer Vision I: Variational Methods',
@@ -552,10 +551,28 @@ class Route {
             'description' => 'Virtual Machines',
             'target'      => 'https://www.in.tum.de/i02/lehre/sommersemester-20/vorlesungen/virtual-machines/',
         ],
+        'walomat'           => [
+            'description' => 'Wal-O-Mat',
+            'target'      => 'https://walomat.asta.tum.de',
+        ],
+        'julius'            => [
+            'description' => 'Julius Kreutz Tutoriums Website',
+            'target'      => 'https://julius-kreutz.de',
+        ],
+        'corona'            => [
+            'description' => 'Coronavirus Information',
+            'target'      => 'https://www.tum.de/die-tum/aktuelles/coronavirus/',
+        ],
+        'panopto'           => [
+            'description' => 'Panopto Video platform',
+            'target'      => 'https://tum.cloud.panopto.eu',
+        ],
     ];
 
     // Format is: <source / synonym> => <target> - the target must be present in the $routes array
     private $synonyms = [
+        'wahlomat'       => 'walomat',
+        'hsw'            => 'wahl',
         'csd'            => 'pride',
         'erapra'         => 'erapraktikum',
         'erap'           => 'erapraktikum',
@@ -585,9 +602,12 @@ class Route {
         'complexity'     => 'comp',
         'sp-ge'          => 'ge-sp',
         'roomfinder'     => 'finder',
-        'patterns'       => 'pat',
+        'patterns'       => 'pse',
+        'pat'            => 'pse',
         'ai'             => 'ki',
         'zoom'           => 'conf',
+        'kreutz'         => 'julius',
+        'covid'         => 'corona'
     ];
 
     /**
@@ -605,7 +625,6 @@ class Route {
         '2. Semester' => [
             'eist',
             'gad',
-            'gadjudge',
             'erapraktikum',
             'linalg',
             'ged',
@@ -627,6 +646,8 @@ class Route {
         ],
         '6. Semester' => [],
         'Special'     => [
+            'wahl',
+            'walomat',
             'hunger',
             'eat-api',
             'mensabot',
@@ -659,6 +680,7 @@ class Route {
             'film',
             'set',
             'slam',
+            'panopto',
         ],
         'Electives'   => [
             'pl',
@@ -701,8 +723,9 @@ class Route {
             'tms',
             'ml',
             'ki',
-            'pat',
+            'pse',
             'cvvm',
+            'cvmvg',
             'vt',
             'vm'
         ],
