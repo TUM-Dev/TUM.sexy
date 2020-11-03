@@ -60,7 +60,7 @@ class Route {
         ],
         'netsec'       => [
             'description' => 'Network Security - Netzsicherheit',
-            'target'      => 'https://www.net.in.tum.de/teaching/ws1920/netsec.html',
+            'target'      => 'https://www.net.in.tum.de/teaching/ws2021/netsec.html',
         ],
         'anal'         => [
             'description' => 'Analysis für Informatiker',
@@ -69,17 +69,17 @@ class Route {
         ],
         'fpv'          => [
             'description' => 'Functional Programming and Verification',
-            'target'      => 'https://www21.in.tum.de/teaching/fpv/WS1920/',
-            'moodle_id'   => '52268',
+            'target'      => 'https://www21.in.tum.de/teaching/fpv/WS20/',
+            'moodle_id'   => '57940',
         ],
         'e2ocaml'      => [
-            'description' => 'Einführung in die Informatik 2 OCAML HA-Abgabe',
+            'description' => 'Einführung in die Informatik 2 Haskell HA-Abgabe',
             'target'      => 'https://vmnipkow3.in.tum.de/',
         ],
         'db'           => [
             'description' => 'Grundlagen: Datenbanken',
-            'target'      => 'https://db.in.tum.de/teaching/ws1920/grundlagen/?lang=de',
-            'moodle_id'   => '49531',
+            'target'      => 'https://db.in.tum.de/teaching/ws2021/grundlagen/?lang=de',
+            'moodle_id'   => '58088',
         ],
         'erdb'         => [
             'description' => 'Einsatz und Realisierung von Datenbanksystemen',
@@ -132,8 +132,8 @@ class Route {
         ],
         'era'          => [
             'description' => 'Einführung in die Rechnerarchitektur',
-            'target'      => 'https://www.caps.in.tum.de/lehre/ws19/vorlesungen/era/',
-            'moodle_id'   => '49305',
+            'target'      => 'https://www.in.tum.de/caps/lehre/ws20/vorlesungen/einfuehrung-in-die-rechnerarchitektur-era/',
+            'moodle_id'   => '57731',
         ],
         'scivis'       => [
             'description' => 'Scientific Visualization',
@@ -146,7 +146,8 @@ class Route {
         ],
         'ds'           => [
             'description' => 'Diskrete Strukturen',
-            'target'      => 'https://www7.in.tum.de/um/courses/ds/ws1920/index.html',
+            'target'      => 'https://www7.in.tum.de/um/courses/ds/ws2021/index.html',
+            'moodle_id'   => '57991'
         ],
         'vorkurs'      => [
             'description' => 'Mathematik Vorkurs für Informatiker',
@@ -357,7 +358,7 @@ class Route {
         ],
         'crypto'       => [
             'description' => 'Kryptographie',
-            'target'      => 'https://www7.in.tum.de/um/courses/crypto/ws1819/',
+            'target'      => 'https://www7.in.tum.de/um/courses/crypto/ws2021/',
         ],
         'markov'       => [
             'description' => 'Markovketten',
@@ -369,7 +370,7 @@ class Route {
         ],
         'itsec'        => [
             'description' => 'IT-Sicherheit',
-            'target'      => 'https://www.sec.in.tum.de/i20/teaching/ws2019/it-sicherheit',
+            'target'      => 'https://www.sec.in.tum.de/i20/teaching/ws2020/it-sicherheit',
             'moodle_id'   => '42097',
         ],
         'ausitsec'     => [
@@ -382,7 +383,7 @@ class Route {
         ],
         'automata'     => [
             'description' => 'Automata and Formal Languages',
-            'target'      => 'https://www7.in.tum.de/um/courses/auto/ws1920/index.php?category=uebungen',
+            'target'      => 'https://www7.in.tum.de/um/courses/auto/ws2021/index.php?category=uebungen',
         ],
         'sd'           => [
             'description' => 'Signaldarstellung',
