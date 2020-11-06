@@ -32,6 +32,7 @@ function addPin(elem){
     let pinUrl = parentContent.substr(parentContent.lastIndexOf(" — ") + 3, parentContent.length - (13 + parentContent.lastIndexOf(" — ")))
     pins.push({"n": pinName, "l": pinUrl})
     setCookie("pins", JSON.stringify(pins), 100)
+    elem.parentElement.removeChild(elem)
     render()
 }
 
