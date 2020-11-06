@@ -11,7 +11,7 @@
         <div class="twelve column">
             <div class="section-header">
                 <h3 data-ss-nofilter>Pinned</h3>
-                <p data-ss-nofilter>Pin your favourite links here for quick access!</p>
+                <p data-ss-nofilter>Pin your favourite links here for quick access! <b>When using this feature, we store cookies on your device!</b></p>
             </div>
             <div class="column pincontainer" id="pins"></div>
         </div>
@@ -37,7 +37,7 @@
                         <h4>{{ section }}</h4>
                         {% for route in elements %}
                             <li>{{ route.desc }} — <a href="https://{{ route.sub }}.tum.sexy">{{ route.sub }}.tum.sexy</a>
-                                <img class="pin" src="img/pin-material.svg" alt="pin">
+                                <img class="pin" src="img/pin-material.svg" alt="pin" onclick="addPin(this)">
                             </li>
                         {% endfor %}
                     {% endfor %}
