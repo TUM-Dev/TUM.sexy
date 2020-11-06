@@ -26,7 +26,7 @@ function removePin(elem) {
     render()
 }
 
-function addPin(elem){
+function addPin(elem) {
     const parentContent = elem.parentElement.innerText
     let pinName = parentContent.substr(0, parentContent.lastIndexOf(" — "))
     let pinUrl = parentContent.substr(parentContent.lastIndexOf(" — ") + 3, parentContent.length - (13 + parentContent.lastIndexOf(" — ")))
