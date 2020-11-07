@@ -378,3 +378,12 @@ li:hover .pin, li.hover .pin{
     flex-basis: 200px;
     flex-grow: 1;
 }
+
+@media (prefers-color-scheme: dark) {
+    .pin, .unpin {
+        filter: invert(1) !important;
+    }
+    .card {
+        border-color: #e5e6e7;
+    }
+}
