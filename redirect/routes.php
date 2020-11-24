@@ -712,7 +712,7 @@ class Route {
             'crypto',
             'geokalkuele',
             'automata',
-            'sd',
+            'st',
             'markov',
             'progopt',
             'advalgs',
