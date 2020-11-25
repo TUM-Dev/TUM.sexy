@@ -1,5 +1,6 @@
 <?php
 
+// please make sure to add your redirects such that the arrays remains sorted alphabetically
 class Route {
     private $routes = [
         'adlr' => [
