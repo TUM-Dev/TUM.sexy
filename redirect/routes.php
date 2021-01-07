@@ -712,6 +712,7 @@ class Route {
             'artemis',
             'ase',
             'automata',
+            'bmt',
             'comp',
             'compiler',
             'conpra',
