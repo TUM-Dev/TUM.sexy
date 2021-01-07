@@ -63,6 +63,10 @@ class Route {
             'description' => 'Automata and Formal Languages',
             'target'      => 'https://www7.in.tum.de/um/courses/auto/ws2021/index.php?category=uebungen',
         ],
+        'bmt' => [
+            'description' => 'Basic Mathematical Tools for Imaging & Visualization',
+            'target'      => 'http://campar.in.tum.de/Chair/TeachingWs11BasicMathTools',
+        ],
         'c' => [
             'description' => 'TUM Online',
             'target'      => 'https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/login',
@@ -260,10 +264,6 @@ class Route {
         'hyper' => [
             'description' => 'HyPer DB Webschnittstelle',
             'target'      => 'http://hyper-db.com/interface.html',
-        ],
-        'bmt' => [
-            'description' => 'Basic Mathematical Tools for Imaging & Visualization',
-            'target'      => 'http://campar.in.tum.de/Chair/TeachingWs11BasicMathTools',
         ],
         'ibmi' => [
             'description' => 'Introduction to Biological and Medical Imaging',
