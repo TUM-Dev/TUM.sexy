@@ -21,7 +21,7 @@ Code of https://tum.sexy. A website providing some links, redirects and tools re
 
 Take a look at the [redirect/](https://github.com/mammuth/TUM.sexy/tree/master/redirect) folder for more details!
 
-You can also take a look at the [good first issue](https://github.com/mammuth/TUM.sexy/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) label to identify good issues to start with.
+You can also take a look at the [good first issue](https://github.com/TUM-Dev/TUM.sexy/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) label to identify good issues to start with.
 
 ### Contributors
 
