@@ -25,8 +25,4 @@ You can also take a look at the [good first issue](https://github.com/TUM-Dev/TU
 
 ### Contributors
 
-<a href="https://github.com/TUM-Dev/TUM.sexy/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=TUM-Dev/TUM.sexy" />
-</a>
-
-Made with [contributors-img](https://contrib.rocks).
+[![](https://contrib.rocks/image?repo=TUM-Dev/TUM.sexy)](https://github.com/TUM-Dev/TUM.sexy/graphs/contributors)
