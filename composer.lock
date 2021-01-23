@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c18f68f9f12c1d36a62e112eebadc9da",
+    "content-hash": "d58005fd90e28fa945079d9c7024942c",
     "packages": [
         {
             "name": "guzzlehttp/guzzle",
@@ -208,60 +208,6 @@
             "time": "2020-09-30T07:37:11+00:00"
         },
         {
-            "name": "jpbernius/fmeat",
-            "version": "3.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/jpbernius/FMeat.php.git",
-                "reference": "a35ec3dd35a7c9b33b3e607bab14c26e3eddb865"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/jpbernius/FMeat.php/zipball/a35ec3dd35a7c9b33b3e607bab14c26e3eddb865",
-                "reference": "a35ec3dd35a7c9b33b3e607bab14c26e3eddb865",
-                "shasum": ""
-            },
-            "require": {
-                "guzzlehttp/guzzle": "~6.0",
-                "php": ">=7.2.0",
-                "php-di/php-di": "^6.0",
-                "tedivm/stash": "^0.15.1"
-            },
-            "require-dev": {
-                "hamcrest/hamcrest-php": "^2.0",
-                "phpunit/phpunit": "~8.2",
-                "squizlabs/php_codesniffer": "~3.4"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "JPBernius\\FMeat\\": "src/JPBernius/FMeat/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Jan Philip Bernius",
-                    "email": "janphilip@bernius.net",
-                    "homepage": "https://janphilip.bernius.net"
-                }
-            ],
-            "description": "PHP Library for accessing the FMeat API",
-            "homepage": "https://jpbernius.github.io/FMeat.php/",
-            "keywords": [
-                "FMeat",
-                "TUM"
-            ],
-            "support": {
-                "issues": "https://github.com/jpbernius/FMeat.php/issues",
-                "source": "https://github.com/jpbernius/FMeat.php/tree/3.0.1"
-            },
-            "time": "2019-11-28T09:45:19+00:00"
-        },
-        {
             "name": "opis/closure",
             "version": "3.6.1",
             "source": {
@@ -328,16 +274,16 @@
         },
         {
             "name": "php-di/invoker",
-            "version": "2.2.0",
+            "version": "2.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHP-DI/Invoker.git",
-                "reference": "e08a7c87068daeaeef464b95d81643ea530bc535"
+                "reference": "992fec6c56f2d1ad1ad5fee28267867c85bfb8f9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHP-DI/Invoker/zipball/e08a7c87068daeaeef464b95d81643ea530bc535",
-                "reference": "e08a7c87068daeaeef464b95d81643ea530bc535",
+                "url": "https://api.github.com/repos/PHP-DI/Invoker/zipball/992fec6c56f2d1ad1ad5fee28267867c85bfb8f9",
+                "reference": "992fec6c56f2d1ad1ad5fee28267867c85bfb8f9",
                 "shasum": ""
             },
             "require": {
@@ -371,7 +317,7 @@
             ],
             "support": {
                 "issues": "https://github.com/PHP-DI/Invoker/issues",
-                "source": "https://github.com/PHP-DI/Invoker/tree/2.2.0"
+                "source": "https://github.com/PHP-DI/Invoker/tree/2.3.0"
             },
             "funding": [
                 {
@@ -379,7 +325,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-10-12T12:15:50+00:00"
+            "time": "2021-01-15T10:25:40+00:00"
         },
         {
             "name": "php-di/php-di",
@@ -759,16 +705,16 @@
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.20.0",
+            "version": "v1.22.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
-                "reference": "f4ba089a5b6366e453971d3aad5fe8e897b37f41"
+                "reference": "c6c942b1ac76c82448322025e084cadc56048b4e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/f4ba089a5b6366e453971d3aad5fe8e897b37f41",
-                "reference": "f4ba089a5b6366e453971d3aad5fe8e897b37f41",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/c6c942b1ac76c82448322025e084cadc56048b4e",
+                "reference": "c6c942b1ac76c82448322025e084cadc56048b4e",
                 "shasum": ""
             },
             "require": {
@@ -780,7 +726,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.20-dev"
+                    "dev-main": "1.22-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -818,7 +764,7 @@
                 "portable"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-ctype/tree/v1.20.0"
+                "source": "https://github.com/symfony/polyfill-ctype/tree/v1.22.0"
             },
             "funding": [
                 {
@@ -834,20 +780,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-23T14:02:19+00:00"
+            "time": "2021-01-07T16:49:33+00:00"
         },
         {
             "name": "symfony/polyfill-intl-idn",
-            "version": "v1.20.0",
+            "version": "v1.22.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-idn.git",
-                "reference": "3b75acd829741c768bc8b1f84eb33265e7cc5117"
+                "reference": "0eb8293dbbcd6ef6bf81404c9ce7d95bcdf34f44"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-intl-idn/zipball/3b75acd829741c768bc8b1f84eb33265e7cc5117",
-                "reference": "3b75acd829741c768bc8b1f84eb33265e7cc5117",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-idn/zipball/0eb8293dbbcd6ef6bf81404c9ce7d95bcdf34f44",
+                "reference": "0eb8293dbbcd6ef6bf81404c9ce7d95bcdf34f44",
                 "shasum": ""
             },
             "require": {
@@ -861,7 +807,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.20-dev"
+                    "dev-main": "1.22-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -905,7 +851,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-intl-idn/tree/v1.20.0"
+                "source": "https://github.com/symfony/polyfill-intl-idn/tree/v1.22.0"
             },
             "funding": [
                 {
@@ -921,20 +867,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-23T14:02:19+00:00"
+            "time": "2021-01-07T16:49:33+00:00"
         },
         {
             "name": "symfony/polyfill-intl-normalizer",
-            "version": "v1.20.0",
+            "version": "v1.22.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-normalizer.git",
-                "reference": "727d1096295d807c309fb01a851577302394c897"
+                "reference": "6e971c891537eb617a00bb07a43d182a6915faba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-intl-normalizer/zipball/727d1096295d807c309fb01a851577302394c897",
-                "reference": "727d1096295d807c309fb01a851577302394c897",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-normalizer/zipball/6e971c891537eb617a00bb07a43d182a6915faba",
+                "reference": "6e971c891537eb617a00bb07a43d182a6915faba",
                 "shasum": ""
             },
             "require": {
@@ -946,7 +892,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.20-dev"
+                    "dev-main": "1.22-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -989,7 +935,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-intl-normalizer/tree/v1.20.0"
+                "source": "https://github.com/symfony/polyfill-intl-normalizer/tree/v1.22.0"
             },
             "funding": [
                 {
@@ -1005,20 +951,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-23T14:02:19+00:00"
+            "time": "2021-01-07T17:09:11+00:00"
         },
         {
             "name": "symfony/polyfill-php72",
-            "version": "v1.20.0",
+            "version": "v1.22.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php72.git",
-                "reference": "cede45fcdfabdd6043b3592e83678e42ec69e930"
+                "reference": "cc6e6f9b39fe8075b3dabfbaf5b5f645ae1340c9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php72/zipball/cede45fcdfabdd6043b3592e83678e42ec69e930",
-                "reference": "cede45fcdfabdd6043b3592e83678e42ec69e930",
+                "url": "https://api.github.com/repos/symfony/polyfill-php72/zipball/cc6e6f9b39fe8075b3dabfbaf5b5f645ae1340c9",
+                "reference": "cc6e6f9b39fe8075b3dabfbaf5b5f645ae1340c9",
                 "shasum": ""
             },
             "require": {
@@ -1027,7 +973,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.20-dev"
+                    "dev-main": "1.22-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -1065,7 +1011,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-php72/tree/v1.20.0"
+                "source": "https://github.com/symfony/polyfill-php72/tree/v1.22.0"
             },
             "funding": [
                 {
@@ -1081,24 +1027,24 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-23T14:02:19+00:00"
+            "time": "2021-01-07T16:49:33+00:00"
         },
         {
             "name": "tedivm/stash",
-            "version": "v0.15.2",
+            "version": "v0.16.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tedious/Stash.git",
-                "reference": "7a6a74106c49b1bdc3a10a725b03c509dc773dbb"
+                "reference": "7d42f58e4f395397d7c76d4eff55eb56aacadc34"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tedious/Stash/zipball/7a6a74106c49b1bdc3a10a725b03c509dc773dbb",
-                "reference": "7a6a74106c49b1bdc3a10a725b03c509dc773dbb",
+                "url": "https://api.github.com/repos/tedious/Stash/zipball/7d42f58e4f395397d7c76d4eff55eb56aacadc34",
+                "reference": "7d42f58e4f395397d7c76d4eff55eb56aacadc34",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.0",
+                "php": ">7.0",
                 "psr/cache": "~1.0"
             },
             "provide": {
@@ -1143,22 +1089,82 @@
             ],
             "support": {
                 "issues": "https://github.com/tedious/Stash/issues",
-                "source": "https://github.com/tedious/Stash/tree/v0.15.2"
+                "source": "https://github.com/tedious/Stash/tree/v0.16.0"
             },
-            "time": "2019-03-09T21:04:14+00:00"
+            "funding": [
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/tedivm/stash",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2021-01-18T04:06:48+00:00"
         },
         {
-            "name": "twig/twig",
-            "version": "v1.44.1",
+            "name": "tum-dev/fmeat",
+            "version": "3.0.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/twigphp/Twig.git",
-                "reference": "04b15d4c0bb18ddbf82626320ac07f6a73f199c9"
+                "url": "https://github.com/TUM-Dev/FMeat.php.git",
+                "reference": "e282e925d0f1d997889a108b46f897bac8ff34bb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/04b15d4c0bb18ddbf82626320ac07f6a73f199c9",
-                "reference": "04b15d4c0bb18ddbf82626320ac07f6a73f199c9",
+                "url": "https://api.github.com/repos/TUM-Dev/FMeat.php/zipball/e282e925d0f1d997889a108b46f897bac8ff34bb",
+                "reference": "e282e925d0f1d997889a108b46f897bac8ff34bb",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "~6.0",
+                "php": ">=7.2.0",
+                "php-di/php-di": "^6.0",
+                "tedivm/stash": "^0.16.0"
+            },
+            "require-dev": {
+                "hamcrest/hamcrest-php": "^2.0",
+                "phpunit/phpunit": "~8.2",
+                "squizlabs/php_codesniffer": "~3.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "JPBernius\\FMeat\\": "src/JPBernius/FMeat/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jan Philip Bernius",
+                    "email": "janphilip@bernius.net",
+                    "homepage": "https://janphilip.bernius.net"
+                }
+            ],
+            "description": "PHP Library for accessing the FMeat API",
+            "homepage": "https://jpbernius.github.io/FMeat.php/",
+            "keywords": [
+                "FMeat",
+                "TUM"
+            ],
+            "support": {
+                "issues": "https://github.com/TUM-Dev/FMeat.php/issues",
+                "source": "https://github.com/TUM-Dev/FMeat.php/tree/3.0.2"
+            },
+            "time": "2021-01-23T13:15:15+00:00"
+        },
+        {
+            "name": "twig/twig",
+            "version": "v1.44.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twigphp/Twig.git",
+                "reference": "138c493c5b8ee7cff3821f80b8896d371366b5fe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/138c493c5b8ee7cff3821f80b8896d371366b5fe",
+                "reference": "138c493c5b8ee7cff3821f80b8896d371366b5fe",
                 "shasum": ""
             },
             "require": {
@@ -1211,7 +1217,7 @@
             ],
             "support": {
                 "issues": "https://github.com/twigphp/Twig/issues",
-                "source": "https://github.com/twigphp/Twig/tree/v1.44.1"
+                "source": "https://github.com/twigphp/Twig/tree/v1.44.2"
             },
             "funding": [
                 {
@@ -1223,7 +1229,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-27T19:22:48+00:00"
+            "time": "2021-01-05T10:10:05+00:00"
         }
     ],
     "packages-dev": [
@@ -1989,16 +1995,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "8.5.13",
+            "version": "8.5.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "8e86be391a58104ef86037ba8a846524528d784e"
+                "reference": "c25f79895d27b6ecd5abfa63de1606b786a461a3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/8e86be391a58104ef86037ba8a846524528d784e",
-                "reference": "8e86be391a58104ef86037ba8a846524528d784e",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/c25f79895d27b6ecd5abfa63de1606b786a461a3",
+                "reference": "c25f79895d27b6ecd5abfa63de1606b786a461a3",
                 "shasum": ""
             },
             "require": {
@@ -2070,7 +2076,7 @@
             ],
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/8.5.13"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/8.5.14"
             },
             "funding": [
                 {
@@ -2082,7 +2088,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-12-01T04:53:52+00:00"
+            "time": "2021-01-17T07:37:30+00:00"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
@@ -2868,12 +2874,12 @@
             "version": "1.9.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/webmozart/assert.git",
+                "url": "https://github.com/webmozarts/assert.git",
                 "reference": "bafc69caeb4d49c39fd0779086c03a3738cbb389"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webmozart/assert/zipball/bafc69caeb4d49c39fd0779086c03a3738cbb389",
+                "url": "https://api.github.com/repos/webmozarts/assert/zipball/bafc69caeb4d49c39fd0779086c03a3738cbb389",
                 "reference": "bafc69caeb4d49c39fd0779086c03a3738cbb389",
                 "shasum": ""
             },
@@ -2911,8 +2917,8 @@
                 "validate"
             ],
             "support": {
-                "issues": "https://github.com/webmozart/assert/issues",
-                "source": "https://github.com/webmozart/assert/tree/master"
+                "issues": "https://github.com/webmozarts/assert/issues",
+                "source": "https://github.com/webmozarts/assert/tree/1.9.1"
             },
             "time": "2020-07-08T17:02:28+00:00"
         }
