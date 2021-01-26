@@ -182,7 +182,7 @@ class Route {
         'exzellenz'        => [
             'description' => 'Exzellenz!!1elf',
             'target'      => 'https://shop.tum.de/accessoires/extras/105/tum-kondom',
-        ]
+        ],
         'fds'              => [
             'description' => 'Functional Data Structures',
             'target'      => 'https://www21.in.tum.de/teaching/FDS/SS20/',
