@@ -91,11 +91,13 @@
         let searchbox = document.getElementById("searchbox");
 
         searchbox.addEventListener('input', function(evt) {
+            // hide/show hidden section if currently searching
             if (this.value === ""){
                 document.getElementById("othersSection").setAttribute("style", "display:none")
             }else {
                 document.getElementById("othersSection").setAttribute("style", "display:block")
             }
+
             let pattern = this.value;
             mysearch.filter(pattern);
         });
