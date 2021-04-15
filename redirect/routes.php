@@ -329,10 +329,6 @@ class Route {
             'description' => 'Lange Nacht der Univeristäten',
             'target'      => 'https://www.facebook.com/events/2681178088623650/',
         ],
-        'logic'           => [
-            'description' => 'Logic',
-            'target'      => 'https://www21.in.tum.de/teaching/logic/SS21/',
-        ],
         'linalg'           => [
             'description' => 'Lineare Algebra für Informatik',
             'target'      => 'https://www.moodle.tum.de/course/view.php?id=65973',
@@ -340,6 +336,10 @@ class Route {
         'live'             => [
             'description' => 'Livestreams und Aufzeichnungen von Vorlesungen',
             'target'      => 'https://stream.tum.sexy',
+        ],
+        'logic'           => [
+            'description' => 'Logic',
+            'target'      => 'https://www21.in.tum.de/teaching/logic/SS21/',
         ],
         'm'                => [
             'description' => 'Moodle',
