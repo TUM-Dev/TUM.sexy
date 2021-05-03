@@ -83,6 +83,10 @@ class Route {
             'description' => 'Carlos Camino',
             'target'      => 'https://carlos-camino.de',
         ],
+        'chairs'           => [
+            'description' => 'Liste der Informatik Lehrstühle',
+            'target'      => 'https://www.in.tum.de/forschung/lehrstuehle/',
+        ],
         'comp'             => [
             'description' => 'Computational Complexity',
             'target'      => 'https://www7.in.tum.de/um/courses/complexity/SS19/',
@@ -114,6 +118,10 @@ class Route {
         'cvmvg'            => [
             'description' => 'Computer Vision II: Multiple View Geometry',
             'target'      => 'https://vision.in.tum.de/teaching/ss2020/mvg2020',
+        ],
+        'cvl'              => [
+            'description' => 'Carl von Linde-Akademie Kurse nach Themen',
+            'target'      => 'https://www.cvl-a.mcts.tum.de/lehrveranstaltungen/nach-themen/',
         ],
         'cvvm'             => [
             'description' => 'Computer Vision I: Variational Methods',
@@ -688,6 +696,8 @@ class Route {
         'Special'     => [
             'app',
             'c',
+            'chairs',
+            'cvl',
             'eat-api',
             'ecarus',
             'esn',
