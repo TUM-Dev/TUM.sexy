@@ -115,13 +115,13 @@ class Route {
             'description' => 'Computational Social Choice',
             'target'      => 'https://dss.in.tum.de/teaching/ws-18-19/37-teaching/semester/wintersemster-2018-19/193-computational-social-choice-2018-19.html',
         ],
-        'cvmvg'            => [
-            'description' => 'Computer Vision II: Multiple View Geometry',
-            'target'      => 'https://vision.in.tum.de/teaching/ss2020/mvg2020',
-        ],
         'cvl'              => [
             'description' => 'Carl von Linde-Akademie Kurse nach Themen',
             'target'      => 'https://www.cvl-a.mcts.tum.de/lehrveranstaltungen/nach-themen/',
+        ],
+        'cvmvg'            => [
+            'description' => 'Computer Vision II: Multiple View Geometry',
+            'target'      => 'https://vision.in.tum.de/teaching/ss2020/mvg2020',
         ],
         'cvvm'             => [
             'description' => 'Computer Vision I: Variational Methods',
