@@ -373,11 +373,11 @@ class Route {
         'med2'             => [
             'description' => 'Medizin II (Krankheitslehre, klinische Propädeutik, Einführung in die Medizinische Informatik)',
             'moodle_id'   => '56092',
-		],
-		'memes'			  => [
-			'description' => 'Exzellente TUM Memes',
-			'target'	  => 'https://tumemes.de',
-		],
+        ],
+        'memes'			  => [
+            'description' => 'Exzellente TUM Memes',
+            'target'	  => 'https://tumemes.de',
+        ],
         'mensabot'         => [
             'description' => 'TUMMensabot für Telegram',
             'target'      => 'https://t.me/TUMMensabot',
@@ -627,7 +627,7 @@ class Route {
         'z'            => [
             'description' => 'Zulip',
             'target'      => 'https://zulip.in.tum.de/',
-		],
+        ],
 	];
 
     // Format is: <source / synonym> => <target> - the target must be present in the $routes array
@@ -730,6 +730,7 @@ class Route {
             'm',
             'ma-sp',
             'matching',
+            'memes',
             'mensabot',
             'mensabot2',
             'panopto',
@@ -751,8 +752,7 @@ class Route {
             'walomat',
             'wi-ma-sp',
             'wi-sp',
-			'z',
-			'memes',
+            'z',
         ],
         'Electives'   => [
             'adlr',
