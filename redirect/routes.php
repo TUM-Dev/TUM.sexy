@@ -53,7 +53,7 @@ class Route {
         ],
         'asp'              => [
             'description' => 'Aspekte der systemnahen Programmierung bei der Spieleentwicklung',
-            'target'      => 'https://www.in.tum.de/caps/lehre/ws20/praktika/asp/',
+            'target'      => 'https://asp.caps.in.tum.de/login',
         ],
         'asta'             => [
             'description' => 'Studentische Vertretung – AStA',
@@ -170,10 +170,6 @@ class Route {
             'target'      => 'https://www.in.tum.de/caps/lehre/ws20/vorlesungen/einfuehrung-in-die-rechnerarchitektur-era/',
             'moodle_id'   => '57731',
         ],
-        'erapraktikum'     => [
-            'description' => 'Praktikum - Einführung in die Rechnerarchitektur',
-            'target'      => 'https://gepasp.in.tum.de/eraweb/main',
-        ],
         'erdb'             => [
             'description' => 'Einsatz und Realisierung von Datenbanksystemen',
             'target'      => 'https://db.in.tum.de/teaching/ss21/impldb/',
@@ -263,6 +259,10 @@ class Route {
         'gog'              => [
             'description' => 'Games on Graphs',
             'target'      => 'https://www7.in.tum.de/um/courses/gog/ss17/index.php',
+        ],
+	'gra'     => [
+            'description' => 'Grundlagenpraktikum Rechnerarchitektur',
+            'target'      => 'https://gra.caps.in.tum.de/login',
         ],
         'grnvs'            => [
             'description' => 'Grundlagen Rechnernetze und Verteilte Systeme',
@@ -413,7 +413,7 @@ class Route {
         ],
         'numprog'          => [
             'description' => 'Numerisches Programmieren',
-            'moodle_id'   => '63517',
+            'moodle_id'   => '68974',
         ],
         'o'                => [
             'description' => 'TUM Opac',
@@ -522,6 +522,10 @@ class Route {
         'seba'             => [
             'description' => 'Software Engineering for Business Applications',
             'moodle_id'   => '58046',
+        ],
+	'semantics'   => [
+            'description' => 'Semantics of Programming Languages',
+            'target'      => 'https://www21.in.tum.de/teaching/semantics/WS21/index.html',
         ],
         'semesterticket'   => [
             'description' => 'Semesterticket München',
@@ -646,8 +650,9 @@ class Route {
         'csd'            => 'pride',
         'eidi'           => 'info1',
         'eidi2'          => 'fpv',
-        'erap'           => 'erapraktikum',
-        'erapra'         => 'erapraktikum',
+        'erap'           => 'gra',
+        'erapra'         => 'gra',
+	'erapraktikum'	 => 'gra',
         'ezs'            => 'rts',
         'gdb'            => 'db',
         'geo'            => 'geokalkuele',
@@ -660,6 +665,7 @@ class Route {
         'latex'          => 'sharelatex',
         'match'          => 'matching',
         'netz'           => 'grnvs',
+	'np'		 => 'numprog',
         'pat'            => 'pse',
         'patterns'       => 'pse',
         'protein'        => 'pp',
@@ -668,6 +674,8 @@ class Route {
         'rbgreateragain' => 'streams',
         'roomfinder'     => 'finder',
         'rooms'          => 'room',
+	'sem'		 => 'semantics'
+	'semantik'	 => 'semantics'
         'sp-ge'          => 'ge-sp',
         'sp-ma'          => 'ma-sp',
         'tex'            => 'sharelatex',
@@ -695,7 +703,7 @@ class Route {
         '2. Semester' => [
             'eist',
             'gad',
-            'erapraktikum',
+            'gra',
             'linalg',
             'ged',
         ],
