@@ -674,8 +674,8 @@ class Route {
         'rbgreateragain' => 'streams',
         'roomfinder'     => 'finder',
         'rooms'          => 'room',
-	'sem'		 => 'semantics'
-	'semantik'	 => 'semantics'
+	'sem'		 => 'semantics',
+	'semantik'	 => 'semantics',
         'sp-ge'          => 'ge-sp',
         'sp-ma'          => 'ma-sp',
         'tex'            => 'sharelatex',
