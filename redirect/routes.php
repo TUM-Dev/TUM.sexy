@@ -29,7 +29,8 @@ class Route {
         ],
         'anal'             => [
             'description' => 'Analysis für Informatiker',
-            'moodle_id'   => '61369',
+            'target'      => 'https://www.moodle.tum.de/course/view.php?id=73098',
+            'moodle_id'   => '73696',
         ],
         'androidsec'       => [
             'description' => 'Praktikum: Android Security',
@@ -229,7 +230,7 @@ class Route {
         ],
         'gbs'              => [
             'description' => 'Grundlagen: Betriebssysteme und Systemsoftware',
-            'moodle_id'   => '58083',
+            'moodle_id'   => '68990',
         ],
         'ge-ma-sp'         => [
             'description' => 'Studienplan M.Sc. Informatik: Games Engineering',
