@@ -28,9 +28,8 @@ class Route {
             'target'      => 'https://tum-dev.github.io/eat-api/all.json',
         ],
         'anal'             => [
-            'description' => 'Analysis für Informatiker',
-            'target'      => 'https://www.moodle.tum.de/course/view.php?id=73098',
-            'moodle_id'   => '73696',
+            'description' => 'Analysis für Informatik',
+            'moodle_id'   => '73098',
         ],
         'androidsec'       => [
             'description' => 'Praktikum: Android Security',
@@ -596,6 +595,10 @@ class Route {
             'description' => 'Support Elective: Think. Make. Start.',
             'target'      => 'https://www.thinkmakestart.com/',
         ],
+        'uanal'            => [
+            'description' => 'Übungen zu Analysis für Informatik',
+            'moodle_id'   => '73696',
+        ],
         'unidb'            => [
             'description' => 'Unischema von Prof. Kemper',
             'target'      => 'https://db.in.tum.de/teaching/ws2021/grundlagen/uni.png',
@@ -677,6 +680,7 @@ class Route {
         'tex'            => 'sharelatex',
         'ticket'         => 'semesterticket',
         'tumi'           => 'esn',
+        'uebanal'        => 'uanal',
         'uml'            => 'apollon',
         'urban-mobility' => 'ecarus',
         'wahlomat'       => 'walomat',
@@ -705,6 +709,7 @@ class Route {
         ],
         '3. Semester' => [
             'anal',
+            'uanal',
             'fpv',
             'db',
             'gbs',
