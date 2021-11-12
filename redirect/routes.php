@@ -263,7 +263,7 @@ class Route {
             'description' => 'Games on Graphs',
             'target'      => 'https://www7.in.tum.de/um/courses/gog/ss17/index.php',
         ],
-	'gra'     => [
+        'gra'     => [
             'description' => 'Grundlagenpraktikum Rechnerarchitektur',
             'target'      => 'https://gra.caps.in.tum.de/login',
         ],
@@ -526,7 +526,7 @@ class Route {
             'description' => 'Software Engineering for Business Applications',
             'moodle_id'   => '58046',
         ],
-	'semantics'   => [
+        'semantics'   => [
             'description' => 'Semantics of Programming Languages',
             'target'      => 'https://www21.in.tum.de/teaching/semantics/WS21/index.html',
         ],
@@ -554,7 +554,7 @@ class Route {
             'description' => 'Studienplan B.Sc. Informatik',
             'target'      => 'https://www.in.tum.de/fuer-studierende/bachelor-studiengaenge/informatik/studienplan/studienbeginn-ab-wise-202122/',
         ],
-	'sp18'               => [
+        'sp18'               => [
             'description' => 'Studienplan B.Sc. Informatik beginn WS 18/19',
             'target'      => 'https://www.in.tum.de/fuer-studierende/bachelor-studiengaenge/informatik/studienplan/studienbeginn-wise-201819-bis-sose-2021/',
         ],
