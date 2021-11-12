@@ -426,6 +426,10 @@ class Route {
             'description' => 'Practical Course: Contributing to an Open-Source Project',
             'target'      => 'https://www21.in.tum.de/teaching/osp/WS20/',
         ],
+        'paging'            => [
+            'description' => 'GBS Paging Trainer',
+            'target'      => 'https://vmott42.in.tum.de/paging?iscsv=false&strategy=fifo&frames=4&pages=5&rounds=10',
+        ],
         'panopto'          => [
             'description' => 'Panopto Video platform',
             'target'      => 'https://tum.cloud.panopto.eu',
@@ -509,6 +513,10 @@ class Route {
         'sbrml'            => [
             'description' => 'Sensor-based Robotic Manipulation and Locomotion',
             'moodle_id'   => '62737',
+        ],
+        'scheduling'            => [
+            'description' => 'GBS Scheduling Trainer',
+            'target'      => 'https://vmott42.in.tum.de/scheduling',
         ],
         'scivis'           => [
             'description' => 'Scientific Visualization / Visual Data Analytics',
