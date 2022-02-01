@@ -644,7 +644,7 @@ class Route {
             'target'      => 'https://www.sec.in.tum.de/i20/teaching/ws2017/web-application-security',
         ],
         'wi-ma-sp'         => [
-            'description' => 'Studienplan M.Sc. Information Systems (Wirthschaftsinformatik)',
+            'description' => 'Studienplan M.Sc. Information Systems (Wirtschaftsinformatik)',
             'target'      => 'https://www.in.tum.de/fuer-studierende/master-studiengaenge/wirtschaftsinformatik-information-systems/curriculum/'            
         ],
         'wi-sp'            => [
