@@ -115,7 +115,6 @@ class Route {
             'description' => 'Coronavirus Information',
             'target'      => 'https://www.in.tum.de/fuer-studierende/coronavirus/',
         ],
-	
         'cpp'              => [
             'description' => 'Concepts of C++ programming (IN2377)',
             'moodle_id'   => '75234',
