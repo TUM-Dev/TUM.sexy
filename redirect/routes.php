@@ -115,6 +115,11 @@ class Route {
             'description' => 'Coronavirus Information',
             'target'      => 'https://www.in.tum.de/fuer-studierende/coronavirus/',
         ],
+	
+        'cpp'              => [
+            'description' => 'Concepts of C++ programming (IN2377)',
+            'moodle_id'   => '75234',
+        ],
         'crypto'           => [
             'description' => 'Kryptographie',
             'target'      => 'https://www7.in.tum.de/um/courses/crypto/ws2021/',
@@ -824,6 +829,7 @@ class Route {
             'comp',
             'compiler',
             'conpra',
+	    'cpp',
             'crypto',
             'csc',
             'cvmvg',
