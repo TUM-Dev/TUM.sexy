@@ -398,6 +398,10 @@ class Route {
             'description' => 'Exzellente TUM Memes',
             'target'	  => 'https://tumemes.de',
         ],
+	'mensa'         => [
+            'description' => 'How long is the Mensa queue?',
+            'target'      => 'https://mensa.liste.party/',
+        ],
         'mensabot'         => [
             'description' => 'TUMMensabot für Telegram',
             'target'      => 'https://t.me/TUMMensabot',
@@ -793,6 +797,7 @@ class Route {
             'ma-sp',
             'matching',
             'memes',
+	    'mensa',
             'mensabot',
             'mensabot2',
 	    'navigatum',
