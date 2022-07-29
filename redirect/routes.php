@@ -83,7 +83,7 @@ class Route {
             'description' => 'TUM Online',
             'target'      => 'https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/login',
         ],
-	'c2'               => [
+        'c2'               => [
             'description' => 'Campus Cneipe',
             'target'      => 'https://www.c2.tum.de',
         ],
