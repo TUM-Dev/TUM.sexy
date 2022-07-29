@@ -782,6 +782,7 @@ class Route {
         'Special'     => [
             'app',
             'c',
+            'c2',
             'chairs',
             'cvl',
             'dea',
