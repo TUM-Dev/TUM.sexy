@@ -33,7 +33,7 @@ class Route {
         ],
         'anal'             => [
             'description' => 'Analysis für Informatik',
-            'moodle_id'   => '73098',
+            'moodle_id'   => '83133',
         ],
         'androidsec'       => [
             'description' => 'Praktikum: Android Security',
