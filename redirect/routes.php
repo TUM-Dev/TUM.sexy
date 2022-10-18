@@ -651,7 +651,7 @@ class Route {
         ],
         'uanal'            => [
             'description' => 'Übungen zu Analysis für Informatik',
-            'moodle_id'   => '73696',
+            'moodle_id'   => '84798',
         ],
         'unidb'            => [
             'description' => 'Unischema von Prof. Kemper',
