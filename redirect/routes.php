@@ -19,6 +19,11 @@ class Route {
             'description' => 'Advanced Algorithms',
             'target'      => 'http://www14.in.tum.de/lehre/2020WS/ada/index.html.en',
         ],
+        'advist'           => [
+            'description' => 'Advanced Data Handling and Visualization Techniques',
+            'target'      => 'https://www.rostlab.org/teaching/WiSe2022-23/advist',
+            'moodle_id'   => '84975',
+        ],
         'agt'              => [
             'description' => 'Algorithmic Game Theory',
             'target'      => 'https://dss.in.tum.de/teaching/ss-21/43-teaching/semester/sommersemester-2021/247-algorithmic-game-theory-ss2021.html',
@@ -33,7 +38,7 @@ class Route {
         ],
         'anal'             => [
             'description' => 'Analysis für Informatik',
-            'moodle_id'   => '73098',
+            'moodle_id'   => '83133',
         ],
         'androidsec'       => [
             'description' => 'Praktikum: Android Security',
@@ -53,7 +58,8 @@ class Route {
         ],
         'ase'              => [
             'description' => 'Advanced Topics In Software Engineering',
-            'moodle_id'   => '69081',
+            'target'      => 'https://wwwmatthes.in.tum.de/pages/c9ulr7t9nrqs/Advanced-Topics-of-Software-Engineering',
+            'moodle_id'   => '80385',
         ],
         'asp'              => [
             'description' => 'Aspekte der systemnahen Programmierung bei der Spieleentwicklung',
@@ -69,7 +75,7 @@ class Route {
         ],
         'automata'         => [
             'description' => 'Automata and Formal Languages',
-            'target'      => 'https://www.in.tum.de/i07/lehre/wintersemester-20202021/automaten-und-formale-sprachen/',
+            'target'      => 'https://www.cs.cit.tum.de/tcs/lehre/ws22-23/automaten-und-formale-sprachen/',
         ],
         'bf'               => [
             'description' => 'Brückenfest 2022',
@@ -87,6 +93,10 @@ class Route {
             'description' => 'Campus Cneipe',
             'target'      => 'https://www.c2.tum.de',
         ],
+        'camp1'            => [
+            'description' => 'Computer Aided Medical Procedures I',
+            'moodle_id'   => '80189',
+        ],
         'canteens-eat-api' => [
             'description' => 'A JSON list of all available canteens for the eat-api',
             'target'      => 'https://tum-dev.github.io/eat-api/canteens.json',
@@ -94,6 +104,11 @@ class Route {
         'carlos'           => [
             'description' => 'Carlos Camino',
             'target'      => 'https://carlos-camino.de',
+        ],
+        'cbdp'             => [
+            'description' => 'Cloud-Based Data Processing',
+            'target'      => 'https://db.in.tum.de/teaching/ws2223/clouddataprocessing',
+            'moodle_id'   => '80360',
         ],
         'chairs'           => [
             'description' => 'Liste der Informatik Lehrstühle',
@@ -121,7 +136,8 @@ class Route {
         ],
         'cpp'              => [
             'description' => 'Concepts of C++ programming (IN2377)',
-            'moodle_id'   => '75234',
+            'target'      => 'https://ciip.in.tum.de/teaching/cpp_ws22.html',
+            'moodle_id'   => '80267',
         ],
         'crypto'           => [
             'description' => 'Kryptographie',
@@ -130,6 +146,10 @@ class Route {
         'csc'              => [
             'description' => 'Computational Social Choice',
             'target'      => 'https://dss.in.tum.de/teaching/ws-18-19/37-teaching/semester/wintersemster-2018-19/193-computational-social-choice-2018-19.html',
+        ],
+        'csdcps'           => [
+            'description' => 'Concepts and Software Design for Cyberphysical Systems',
+            'moodle_id'   => '83237',
         ],
         'cvl'              => [
             'description' => 'Carl von Linde-Akademie Kurse nach Themen',
@@ -145,8 +165,8 @@ class Route {
         ],
         'db'               => [
             'description' => 'Grundlagen: Datenbanken',
-            'target'      => 'https://db.in.tum.de/teaching/ws2122/grundlagen/?lang=de',
-            'moodle_id'   => '68916',
+            'target'      => 'https://db.in.tum.de/teaching/ws2223/grundlagen/?lang=de',
+            'moodle_id'   => '80363',
         ],
         'dea'              => [
             'description' => 'Studienplan von Data Engineering & Analytics',
@@ -158,7 +178,7 @@ class Route {
         ],
         'ds'               => [
             'description' => 'Diskrete Strukturen',
-            'moodle_id'   => '69053',
+            'moodle_id'   => '80008',
         ],
         'dwt'              => [
             'description' => 'Diskrete Wahrscheinlichkeitstheorie',
@@ -190,8 +210,8 @@ class Route {
         ],
         'era'              => [
             'description' => 'Einführung in die Rechnerarchitektur',
-            'target'      => 'https://www.in.tum.de/caps/lehre/ws21/vorlesungen/einfuehrung-in-die-rechnerarchitektur-era/',
-            'moodle_id'   => '68787',
+            'target'      => 'https://www.ce.cit.tum.de/caps/lehre/ws22/vorlesungen/einfuehrung-in-die-rechnerarchitektur-era/',
+            'moodle_id'   => '80453',
         ],
         'erdb'             => [
             'description' => 'Einsatz und Realisierung von Datenbanksystemen',
@@ -242,7 +262,7 @@ class Route {
         ],
         'gbs'              => [
             'description' => 'Grundlagen: Betriebssysteme und Systemsoftware',
-            'moodle_id'   => '68990',
+            'moodle_id'   => '80270',
         ],
         'ge-ma-sp'         => [
             'description' => 'Studienplan M.Sc. Informatik: Games Engineering',
@@ -292,6 +312,10 @@ class Route {
             'description' => 'Grundlagen Rechnernetze und Verteilte Systeme',
             'target'      => 'https://svm0000.net.in.tum.de',
         ],
+        'gs'            => [
+            'description' => 'DocGS',
+            'target'      => 'https://www.docgs.tum.de',
+        ],
         'hunger'           => [
             'description' => 'FMI Bistro Speiseplan',
             'target'      => 'https://tum.sexy/hunger',
@@ -334,7 +358,7 @@ class Route {
         ],
         'info1'            => [
             'description' => 'Einführung in die Informatik 1',
-            'moodle_id'   => '69004',
+            'moodle_id'   => '80182',
         ],
         'io'               => [
             'description' => 'Information Officer',
@@ -342,8 +366,8 @@ class Route {
         ],
         'itsec'            => [
             'description' => 'IT-Sicherheit',
-            'target'      => 'https://www.sec.in.tum.de/i20/teaching/ws2020/it-sicherheit',
-            'moodle_id'   => '58097',
+            'target'      => 'https://www.sec.in.tum.de/i20/teaching/ws2022/it-sicherheit-in0042',
+            'moodle_id'   => '82495',
         ],
         'ja'               => [
             'description' => 'Junge Akademie',
@@ -357,6 +381,11 @@ class Route {
             'description' => 'Grundlagen der künstlichen Intelligenz',
             'moodle_id'   => '58014',
         ],
+	'lambda'           => [
+	    'description' => 'Lambda Calculus',
+	    'target'      => 'https://www21.in.tum.de/teaching/lambda/WS22/index.html',
+            'moodle_id'   => '80136',
+	],
         'langenacht'       => [
             'description' => 'Lange Nacht der Univeristäten',
             'target'      => 'https://www.facebook.com/events/2681178088623650/',
@@ -433,11 +462,15 @@ class Route {
         ],
         'netsec'           => [
             'description' => 'Network Security - Netzsicherheit',
-            'target'      => 'https://www.net.in.tum.de/teaching/ws2122/netsec.html',
+            'target'      => 'https://www.net.in.tum.de/teaching/ws2223/netsec.html',
         ],
         'nix'              => [
             'description' => 'GLÜHNIX',
             'target'      => 'https://www.facebook.com/events/807341503020074/',
+        ],
+        'nlp'              => [
+            'description' => 'Natural Language Processing',
+            'moodle_id'   => '80381',
         ],
         'numprog'          => [
             'description' => 'Numerisches Programmieren',
@@ -461,7 +494,7 @@ class Route {
         ],
         'pgdp'             => [
             'description' => 'Praktikum Grundlagen der Programmierung (Moodle-Kurs)',
-            'moodle_id'   => '69004',
+            'moodle_id'   => '80180',
         ],
         'pgdpunittests'     => [
             'description' => 'Unit - Tests: Praktikum Grundlagen der Programmierung',
@@ -497,7 +530,7 @@ class Route {
         ],
         'qo'               => [
             'description' => 'Query Optimization',
-            'target'      => 'https://db.in.tum.de/teaching/ws2122/queryopt/',
+            'target'      => 'https://db.in.tum.de/teaching/ws2223/queryopt/',
         ],
         'quintero'         => [
             'description' => 'Mathias Quintero',
@@ -569,7 +602,7 @@ class Route {
         ],
         'semantics'   => [
             'description' => 'Semantics of Programming Languages',
-            'target'      => 'https://www21.in.tum.de/teaching/semantics/WS21/index.html',
+            'target'      => 'https://www21.in.tum.de/teaching/semantics/WS22/index.html',
         ],
         'semesterticket'   => [
             'description' => 'Semesterticket München',
@@ -655,7 +688,7 @@ class Route {
         ],
         'uanal'            => [
             'description' => 'Übungen zu Analysis für Informatik',
-            'moodle_id'   => '73696',
+            'moodle_id'   => '84798',
         ],
         'unidb'            => [
             'description' => 'Unischema von Prof. Kemper',
@@ -687,7 +720,7 @@ class Route {
         ],
         'wi-ma-sp'         => [
             'description' => 'Studienplan M.Sc. Information Systems (Wirtschaftsinformatik)',
-            'target'      => 'https://www.in.tum.de/fuer-studierende/master-studiengaenge/wirtschaftsinformatik-information-systems/curriculum/'            
+            'target'      => 'https://www.in.tum.de/fuer-studierende/master-studiengaenge/wirtschaftsinformatik-information-systems/curriculum/'
         ],
         'wi-sp'            => [
             'description' => 'Studienplan B.Sc. Wirtschaftsinformatik',
@@ -703,6 +736,7 @@ class Route {
     private $synonyms = [
         '365'            => 'semesterticket',
         'ada'            => 'advalgs',
+        'afl'            => 'automata',
         'ai'             => 'ki',
         'algebra'        => 'algebra1',
         'bs'             => 'gbs',
@@ -844,6 +878,7 @@ class Route {
             'ase',
             'automata',
             'bmt',
+            'cbdp',
             'comp',
             'compiler',
             'conpra',
