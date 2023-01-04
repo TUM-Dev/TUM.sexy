@@ -405,6 +405,7 @@ class Route {
         'live'             => [
             'description' => 'Livestreams und Aufzeichnungen von Vorlesungen',
             'target'      => 'https://live.rbg.tum.de',
+            'addReferer' => True,
         ],
         'logic'           => [
             'description' => 'Logic',
@@ -934,7 +935,17 @@ class Route {
         ],
     ];
 
-    public function getTargetOfSub($host) {
+    public function shouldAddReferer($host): bool {
+        $redirectUrl = $this->getRedirectURL($host);
+        header('X-Should-Add: ' . $redirectUrl);
+
+        if (isset($this->routes[$redirectUrl])) {
+            return isset($this->routes[$redirectUrl]['addReferer']) && $this->routes[$redirectUrl]['addReferer'];
+        }
+        return False;
+    }
+
+    private function getSiteType($host) {
         //Split up the requested host into parts and filter out unneeded info
         $domain = explode('.', $host);
         $domain = array_filter($domain, function ($e) {
@@ -942,10 +953,18 @@ class Route {
         });
 
         //DEPRECATED - First item should be a site type: tutor, moodle or other
-        $siteType = null;
         if (count($domain) > 1) {
-            $siteType = array_shift($domain);
+            return array_shift($domain);
         }
+        return null;
+    }
+    private function getRedirectURL($host) {
+        //Split up the requested host into parts and filter out unneeded info
+        $domain = explode('.', $host);
+        $domain = array_filter($domain, function ($e) {
+            return $e !== 'sexy' && $e !== 'tum' && $e !== 'www';
+        });
+
         $redirectUrl = array_shift($domain);
 
         //Static route to return the route array as json
@@ -968,6 +987,11 @@ class Route {
                 }
             }
         }
+        return $redirectUrl;
+    }
+
+    public function getTargetOfSub($host) {
+        $redirectUrl = $this->getRedirectURL($host);
 
         //If it does not exist? Go to main page
         if (!isset($this->routes[$redirectUrl])) {
@@ -983,7 +1007,7 @@ class Route {
         }
 
         //In case we actually want to go to a different target than the actual redirect
-        switch ($siteType) {
+        switch ($this->getSiteType($host)) {
             case 'm' :
                 // This is a moodle redirect like minfo1.tum.sexy
                 $route = $this->routes[$redirectUrl];

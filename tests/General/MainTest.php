@@ -18,6 +18,16 @@ class MainTest extends \PHPUnit\Framework\TestCase {
         $this->assertStringContainsString('https://db.in.tum.de/teaching/ws2223/grundlagen/?lang=de', $router->getTargetOfSub('db.tum.sexy'));
     }
 
+    public function testRefererAdding() {
+        $router = new Route();
+
+        // Don't add referer for moodle links
+        $this->assertEquals(False, $router->shouldAddReferer('m.tum.sexy'));
+
+        // add referer for TUM-Live
+        $this->assertEquals(True, $router->shouldAddReferer('l.tum.sexy'));
+    }
+
     public function testJsonOutput() {
         $router = new Route();
         $this->assertNotEmpty($router->getResolvedArrays());
