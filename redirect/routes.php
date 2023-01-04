@@ -937,7 +937,6 @@ class Route {
 
     public function shouldAddReferer($host): bool {
         $redirectUrl = $this->getRedirectURL($host);
-        header('X-Should-Add: ' . $redirectUrl);
 
         if (isset($this->routes[$redirectUrl])) {
             return isset($this->routes[$redirectUrl]['addReferer']) && $this->routes[$redirectUrl]['addReferer'];
