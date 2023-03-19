@@ -188,7 +188,7 @@ class Route {
             'description' => 'Diskrete Strukturen',
             'moodle_id'   => '80008',
         ],
-	'DSolver'          => [
+	'dsolver'          => [
             'description' => 'DSolver',
             'target'   	  => 'https://www.dsolver.de/',
         ],
