@@ -188,6 +188,10 @@ class Route {
             'description' => 'Diskrete Strukturen',
             'moodle_id'   => '80008',
         ],
+	'dsolver'          => [
+            'description' => 'DSolver',
+            'target'   	  => 'https://www.dsolver.de/',
+        ],
         'dwt'              => [
             'description' => 'Diskrete Wahrscheinlichkeitstheorie',
             'target'      => 'http://wwwalbers.in.tum.de/lehre/2022SS/dwt/index.html.de',
@@ -642,7 +646,7 @@ class Route {
         ],
         'sp'               => [
             'description' => 'Studienplan B.Sc. Informatik',
-            'target'      => 'https://www.in.tum.de/in/fuer-studierende/bachelor-studiengaenge/informatik/studienplan/studienbeginn-ab-wise-2021-22/',
+            'target'      => 'https://www.cit.tum.de/cit/studium/studiengaenge/bachelor-informatik/studienplan/',
         ],
         'sp18'               => [
             'description' => 'Studienplan B.Sc. Informatik beginn WS 18/19',
@@ -732,7 +736,7 @@ class Route {
         ],
         'wi-sp'            => [
             'description' => 'Studienplan B.Sc. Wirtschaftsinformatik',
-            'target'      => 'https://www.in.tum.de/fuer-studierende/bachelor-studiengaenge/wirtschaftsinformatik/studienplan/studienbeginn-ab-ws-202122/',
+            'target'      => 'https://www.in.tum.de/fuer-studierende/bachelor-studiengaenge/wirtschaftsinformatik/studienplan/studienbeginn-ab-ws-2021-22/',
         ],
         'z'            => [
             'description' => 'Zulip',
