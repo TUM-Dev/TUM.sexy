@@ -152,7 +152,6 @@ class Route {
             'target'      => 'https://www.sec.in.tum.de/i20/teaching/ss-2023/kryptografie',
             'moodle_id' => '86223',
         ],
-        ],
         'csc'              => [
             'description' => 'Computational Social Choice',
             'target'      => 'https://dss.in.tum.de/teaching/ws-18-19/37-teaching/semester/wintersemster-2018-19/193-computational-social-choice-2018-19.html',
