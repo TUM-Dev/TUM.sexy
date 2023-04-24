@@ -26,7 +26,7 @@ class Route {
         ],
         'agt'              => [
             'description' => 'Algorithmic Game Theory',
-            'target'      => 'https://dss.in.tum.de/teaching/ss-21/43-teaching/semester/sommersemester-2021/247-algorithmic-game-theory-ss2021.html',
+            'target'      => 'https://www.cs.cit.tum.de/en/dss/teaching/summer-semester-2023/algorithmic-game-theory-ss23/',
         ],
         'algebra1'         => [
             'description' => 'Algebra 1',
@@ -215,7 +215,11 @@ class Route {
         ],
         'eist'             => [
             'description' => 'Einführung in die Softwaretechnik',
-            'target'      => 'https://artemis.cit.tum.de/courses/169',
+            'target'      => 'https://artemis.cit.tum.de/courses/241',
+        ],
+	'eistslack'             => [
+            'description' => 'EIST Slack-Channel',
+            'target'      => 'https://eist2023.slack.com/',
         ],
         'enigame'          => [
             'description' => 'enigame Puzzle Hunt (Escape Game) Event',
@@ -249,7 +253,7 @@ class Route {
         ],
         'fds'              => [
             'description' => 'Functional Data Structures',
-            'target'      => 'https://www21.in.tum.de/teaching/fds/SS22/',
+            'target'      => 'https://www21.in.tum.de/teaching/fds/SS23/',
         ],
         'film'             => [
             'description' => 'tu film',
@@ -816,6 +820,8 @@ class Route {
         ],
         '2. Semester' => [
             'eist',
+	    'eistslack',
+	    'fpv',
             'gad',
             'gra',
             'linalg',
@@ -824,7 +830,6 @@ class Route {
         '3. Semester' => [
             'anal',
             'uanal',
-            'fpv',
             'db',
             'gbs',
         ],
