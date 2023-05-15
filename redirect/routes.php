@@ -122,6 +122,10 @@ class Route {
             'description' => 'Liste der Computer Science Lehrstühle',
             'target'      => 'https://www.cs.cit.tum.de/cs/forschung/professuren/',
         ],
+	'chess'           => [
+            'description' => 'Official TUM Chess Club',
+            'target'      => 'https://home.in.tum.de/~petriroc',
+        ],
         'comp'             => [
             'description' => 'Computational Complexity',
             'target'      => 'https://www7.in.tum.de/um/courses/complexity/SS19/',
