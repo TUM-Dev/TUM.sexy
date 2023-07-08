@@ -478,7 +478,7 @@ class Route {
             'description' => 'NavigaTUM - Finde Räume, Gebäude und andere Orte an der TUM mit Exzellenz. Eine moderne Alternative zum RoomFinder, entwickelt von Studierenden.',
             'target'      => 'https://nav.tum.de',
         ],
-        'nav'        => [
+        'navigatum'        => [
             'description' => 'NavigaTUM - Finde Räume, Gebäude und andere Orte an der TUM mit Exzellenz. Eine moderne Alternative zum RoomFinder, entwickelt von Studierenden.',
             'target'      => 'https://nav.tum.de',
         ],
