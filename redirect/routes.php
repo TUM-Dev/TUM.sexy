@@ -746,11 +746,11 @@ class Route {
         ],
         'wi-ma-sp'         => [
             'description' => 'Studienplan M.Sc. Information Systems (Wirtschaftsinformatik)',
-            'target'      => 'https://www.in.tum.de/fuer-studierende/master-studiengaenge/wirtschaftsinformatik-information-systems/curriculum/'
+            'target'      => 'https://www.cit.tum.de/cit/studium/studiengaenge/master-information-systems/studienplaene/'
         ],
         'wi-sp'            => [
             'description' => 'Studienplan B.Sc. Wirtschaftsinformatik',
-            'target'      => 'https://www.in.tum.de/fuer-studierende/bachelor-studiengaenge/wirtschaftsinformatik/studienplan/studienbeginn-ab-ws-2021-22/',
+            'target'      => 'https://www.cit.tum.de/cit/studium/studiengaenge/bachelor-wirtschaftsinformatik/studienplaene/',
         ],
         'z'            => [
             'description' => 'Zulip',
