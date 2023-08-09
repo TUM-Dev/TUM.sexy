@@ -110,10 +110,6 @@ class Route {
             'target'      => 'https://db.in.tum.de/teaching/ws2223/clouddataprocessing',
             'moodle_id'   => '80360',
         ],
-        'chairs'           => [
-            'description' => 'Liste der Informatik Lehrstühle',
-            'target'      => 'https://www.in.tum.de/forschung/lehrstuehle/',
-        ],
         'chairs-ce'           => [
             'description' => 'Liste der Computer Engineering Lehrstühle',
             'target'      => 'https://www.ce.cit.tum.de/ce/forschung/professuren/',
@@ -860,7 +856,6 @@ class Route {
             'artemis',
             'c',
             'c2',
-            'chairs',
             'cvl',
             'dea',
             'eat-api',
