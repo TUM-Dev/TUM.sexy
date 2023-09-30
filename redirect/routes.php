@@ -140,7 +140,7 @@ class Route {
         ],
         'cpp'              => [
             'description' => 'Concepts of C++ programming (IN2377)',
-            'target'      => 'https://ciip.in.tum.de/teaching/cpp_ws22.html',
+            'target'      => 'https://ciip.in.tum.de/teaching/cpp_ws23.html',
             'moodle_id'   => '80267',
         ],
         'crypto'           => [
@@ -245,7 +245,7 @@ class Route {
         ],
         'exzellenz'        => [
             'description' => 'Exzellenz!!1elf',
-            'target'      => 'https://shop.tum.de/accessoires/extras/105/tum-kondom',
+            'target'      => 'https://shop.tum.de/product/https-shop-tum-de-product-tum-kondom-csd/',
         ],
         'fds'              => [
             'description' => 'Functional Data Structures',
@@ -712,6 +712,10 @@ class Route {
             'description' => 'The place, where you can find daily menus for some student places in Munich',
             'target'      => 'https://menu.tum.sexy/',
         ],
+        'tval'            => [
+            'description' => 'Status of the Validation Stations',
+            'target'      => 'https://campus.tum.de/valistatus/en/',
+        ],
         'uanal'            => [
             'description' => 'Übungen zu Analysis für Informatik',
             'moodle_id'   => '84798',
@@ -893,6 +897,7 @@ class Route {
             'statista',
             'streams',
 	    'tumenu',
+            'tval',
             'vorkurs',
             'wahl',
             'walomat',
