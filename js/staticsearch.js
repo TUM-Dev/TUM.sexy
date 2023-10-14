@@ -56,7 +56,6 @@ function staticsearch(htmlnode, {
 		constructor(htmlnode, nofilter = false) {
 			this.origdisplay = htmlnode.style.display;
 			if (htmlnode.classList.contains("pin")) {
-				console.log("pin");
 				this.origdisplay = "block";
 			}
 			this.preactive = true;
