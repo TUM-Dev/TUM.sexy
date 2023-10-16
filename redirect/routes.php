@@ -622,6 +622,10 @@ class Route {
             'description' => 'Software Engineering for Business Applications',
             'moodle_id'   => '58046',
         ],
+        'seip'             => [
+            'description' => 'Software Engineering in der industriellen Praxis',
+            'target'      => 'https://wwwmatthes.in.tum.de/pages/305agw8vpolx/SEIP',
+        ],
         'semantics'   => [
             'description' => 'Semantics of Programming Languages',
             'target'      => 'https://www21.in.tum.de/teaching/semantics/WS22/index.html',
@@ -955,6 +959,7 @@ class Route {
             'rts',
             'sbrml',
             'scivis',
+            'seip',
             'smds',
             'st',
             'tms',
