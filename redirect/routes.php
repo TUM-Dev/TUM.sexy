@@ -245,7 +245,7 @@ class Route {
         ],
         'exzellenz'        => [
             'description' => 'Exzellenz!!1elf',
-            'target'      => 'https://shop.tum.de/accessoires/extras/105/tum-kondom',
+            'target'      => 'https://shop.tum.de/product/https-shop-tum-de-product-tum-kondom-csd/',
         ],
         'fds'              => [
             'description' => 'Functional Data Structures',
@@ -376,6 +376,10 @@ class Route {
         'io'               => [
             'description' => 'Information Officer',
             'target'      => 'https://www.sv.tum.de/asta/io/',
+        ],
+        'itguide'          => [
+            'description' => 'detailed overview over it-infrastructure during the studies',
+            'target'      => 'https://mpic.fs.tum.de/studium/itguide/',
         ],
         'itsec'            => [
             'description' => 'IT-Sicherheit',
@@ -618,6 +622,10 @@ class Route {
             'description' => 'Software Engineering for Business Applications',
             'moodle_id'   => '58046',
         ],
+        'seip'             => [
+            'description' => 'Software Engineering in der industriellen Praxis',
+            'target'      => 'https://wwwmatthes.in.tum.de/pages/305agw8vpolx/SEIP',
+        ],
         'semantics'   => [
             'description' => 'Semantics of Programming Languages',
             'target'      => 'https://www21.in.tum.de/teaching/semantics/WS22/index.html',
@@ -627,8 +635,8 @@ class Route {
             'target'      => 'https://www.semesterticket-muenchen.de',
         ],
         'set'              => [
-            'description' => 'Studieneinführungstage der FSMPI',
-            'target'      => 'https://mpi.fs.tum.de/neu-an-der-tum/set/',
+            'description' => 'Studieneinführungstage der FSMPIC',
+            'target'      => 'https://mpic.fs.tum.de/studium/studienbeginn/set/',
         ],
         'sharelatex'       => [
             'description' => 'ShareLaTeX@TUM',
@@ -951,6 +959,7 @@ class Route {
             'rts',
             'sbrml',
             'scivis',
+            'seip',
             'smds',
             'st',
             'tms',
