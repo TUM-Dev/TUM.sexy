@@ -170,7 +170,7 @@ class Route {
         ],
         'db'               => [
             'description' => 'Grundlagen: Datenbanken',
-            'target'      => 'https://db.in.tum.de/teaching/ws2223/grundlagen/?lang=de',
+            'target'      => 'https://db.in.tum.de/teaching/ws2324/grundlagen/?lang=de',
             'moodle_id'   => '80363',
         ],
         'dea'              => [
