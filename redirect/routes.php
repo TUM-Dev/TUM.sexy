@@ -552,7 +552,7 @@ class Route {
         ],
         'qo'               => [
             'description' => 'Query Optimization',
-            'target'      => 'https://db.in.tum.de/teaching/ws2223/queryopt/',
+            'target'      => 'https://db.in.tum.de/teaching/ws2324/queryopt/',
         ],
         'quintero'         => [
             'description' => 'Mathias Quintero',
