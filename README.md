@@ -7,7 +7,7 @@ Code of https://tum.sexy. A website providing some links, redirects and tools re
 
 
 **Redirects** like
-* hunger.tum.sexy → FMI Speiseplan
+* hunger.tum.sexy → TUM.menu
 * c.tum.sexy → TUM Online
 * ds.tum.sexy → Diskrete Strukturen Übungsseite
 * ...

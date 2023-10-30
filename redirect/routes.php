@@ -335,7 +335,7 @@ class Route {
         ],
         'hunger'           => [
             'description' => 'FMI Bistro Speiseplan',
-            'target'      => 'https://tum.sexy/hunger',
+            'target'      => 'https://menu.tum.sexy/',
         ],
         'hyper'            => [
             'description' => 'HyPer DB Webschnittstelle',
@@ -634,10 +634,6 @@ class Route {
             'description' => 'ShareLaTeX@TUM',
             'target'      => 'https://sharelatex.tum.de',
         ],
-        'shuttle'          => [
-            'description' => 'WZW-GAR-MUC shuttle schedule',
-            'target'      => 'https://tum.sexy/shuttle/',
-        ],
         'slam'             => [
             'description' => 'TUM Hörsaal Slam',
             'target'      => 'https://fb.me/e/eQ0mb4QYz',
@@ -886,7 +882,6 @@ class Route {
             'scopus',
             'set',
             'sharelatex',
-            'shuttle',
             'slam',
             'social',
             'sp',
