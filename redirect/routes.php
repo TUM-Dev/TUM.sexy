@@ -110,10 +110,6 @@ class Route {
             'target'      => 'https://db.in.tum.de/teaching/ws2223/clouddataprocessing',
             'moodle_id'   => '80360',
         ],
-        'chairs'           => [
-            'description' => 'Liste der Informatik Lehrstühle',
-            'target'      => 'https://www.in.tum.de/forschung/lehrstuehle/',
-        ],
         'chairs-ce'           => [
             'description' => 'Liste der Computer Engineering Lehrstühle',
             'target'      => 'https://www.ce.cit.tum.de/ce/forschung/professuren/',
@@ -144,7 +140,7 @@ class Route {
         ],
         'cpp'              => [
             'description' => 'Concepts of C++ programming (IN2377)',
-            'target'      => 'https://ciip.in.tum.de/teaching/cpp_ws22.html',
+            'target'      => 'https://ciip.in.tum.de/teaching/cpp_ws23.html',
             'moodle_id'   => '80267',
         ],
         'crypto'           => [
@@ -249,7 +245,7 @@ class Route {
         ],
         'exzellenz'        => [
             'description' => 'Exzellenz!!1elf',
-            'target'      => 'https://shop.tum.de/accessoires/extras/105/tum-kondom',
+            'target'      => 'https://shop.tum.de/product/https-shop-tum-de-product-tum-kondom-csd/',
         ],
         'fds'              => [
             'description' => 'Functional Data Structures',
@@ -334,7 +330,7 @@ class Route {
             'target'      => 'https://www.docgs.tum.de',
         ],
         'hunger'           => [
-            'description' => 'FMI Bistro Speiseplan',
+            'description' => 'Mensa Speiseplan',
             'target'      => 'https://menu.tum.sexy/',
         ],
         'hyper'            => [
@@ -380,6 +376,10 @@ class Route {
         'io'               => [
             'description' => 'Information Officer',
             'target'      => 'https://www.sv.tum.de/asta/io/',
+        ],
+        'itguide'          => [
+            'description' => 'detailed overview over it-infrastructure during the studies',
+            'target'      => 'https://mpic.fs.tum.de/studium/itguide/',
         ],
         'itsec'            => [
             'description' => 'IT-Sicherheit',
@@ -474,9 +474,13 @@ class Route {
             'target'      => 'https://www.os.in.tum.de/studium-und-lehre/ss18/mobile-verteilte-systeme/',
             'moodle_id'   => '38940',
         ],
+        'nav'        => [
+            'description' => 'NavigaTUM - Finde Räume, Gebäude und andere Orte an der TUM mit Exzellenz. Eine moderne Alternative zum RoomFinder, entwickelt von Studierenden.',
+            'target'      => 'https://nav.tum.de',
+        ],
         'navigatum'        => [
             'description' => 'NavigaTUM - Finde Räume, Gebäude und andere Orte an der TUM mit Exzellenz. Eine moderne Alternative zum RoomFinder, entwickelt von Studierenden.',
-            'target'      => 'https://nav.tum.sexy',
+            'target'      => 'https://nav.tum.de',
         ],
         'netsec'           => [
             'description' => 'Network Security - Netzsicherheit',
@@ -548,7 +552,7 @@ class Route {
         ],
         'qo'               => [
             'description' => 'Query Optimization',
-            'target'      => 'https://db.in.tum.de/teaching/ws2223/queryopt/',
+            'target'      => 'https://db.in.tum.de/teaching/ws2324/queryopt/',
         ],
         'quintero'         => [
             'description' => 'Mathias Quintero',
@@ -618,6 +622,10 @@ class Route {
             'description' => 'Software Engineering for Business Applications',
             'moodle_id'   => '58046',
         ],
+        'seip'             => [
+            'description' => 'Software Engineering in der industriellen Praxis',
+            'target'      => 'https://wwwmatthes.in.tum.de/pages/305agw8vpolx/SEIP',
+        ],
         'semantics'   => [
             'description' => 'Semantics of Programming Languages',
             'target'      => 'https://www21.in.tum.de/teaching/semantics/WS22/index.html',
@@ -627,8 +635,8 @@ class Route {
             'target'      => 'https://www.semesterticket-muenchen.de',
         ],
         'set'              => [
-            'description' => 'Studieneinführungstage der FSMPI',
-            'target'      => 'https://mpi.fs.tum.de/neu-an-der-tum/set/',
+            'description' => 'Studieneinführungstage der FSMPIC',
+            'target'      => 'https://mpic.fs.tum.de/studium/studienbeginn/set/',
         ],
         'sharelatex'       => [
             'description' => 'ShareLaTeX@TUM',
@@ -649,10 +657,14 @@ class Route {
         'sp'               => [
             'description' => 'Studienplan B.Sc. Informatik',
             'target'      => 'https://www.cit.tum.de/cit/studium/studiengaenge/bachelor-informatik/studienplan/',
-        ],
+		],
         'sp18'               => [
             'description' => 'Studienplan B.Sc. Informatik beginn WS 18/19',
             'target'      => 'https://www.in.tum.de/fuer-studierende/bachelor-studiengaenge/informatik/studienplan/studienbeginn-wise-201819-bis-sose-2021/',
+		],
+		'spaetzle'		   => [
+            'description' => 'Spätzle Ticker',
+            'target'      => 'https://leonwind.github.io/spaetzle-ticker/',
         ],
         'springer'         => [
             'description' => 'Springer Link Login',
@@ -707,7 +719,11 @@ class Route {
 	'tumenu'           => [
             'description' => 'The place, where you can find daily menus for some student places in Munich',
             'target'      => 'https://menu.tum.sexy/',
-        ],  
+        ],
+        'tval'            => [
+            'description' => 'Status of the Validation Stations',
+            'target'      => 'https://campus.tum.de/valistatus/en/',
+        ],
         'uanal'            => [
             'description' => 'Übungen zu Analysis für Informatik',
             'moodle_id'   => '84798',
@@ -742,11 +758,11 @@ class Route {
         ],
         'wi-ma-sp'         => [
             'description' => 'Studienplan M.Sc. Information Systems (Wirtschaftsinformatik)',
-            'target'      => 'https://www.in.tum.de/fuer-studierende/master-studiengaenge/wirtschaftsinformatik-information-systems/curriculum/'
+            'target'      => 'https://www.cit.tum.de/cit/studium/studiengaenge/master-information-systems/studienplaene/'
         ],
         'wi-sp'            => [
             'description' => 'Studienplan B.Sc. Wirtschaftsinformatik',
-            'target'      => 'https://www.in.tum.de/fuer-studierende/bachelor-studiengaenge/wirtschaftsinformatik/studienplan/studienbeginn-ab-ws-2021-22/',
+            'target'      => 'https://www.cit.tum.de/cit/studium/studiengaenge/bachelor-wirtschaftsinformatik/studienplaene/',
         ],
         'z'            => [
             'description' => 'Zulip',
@@ -852,7 +868,6 @@ class Route {
             'artemis',
             'c',
             'c2',
-            'chairs',
             'cvl',
             'dea',
             'eat-api',
@@ -884,11 +899,13 @@ class Route {
             'sharelatex',
             'slam',
             'social',
-            'sp',
+			'sp',
+			'spaetzle',
             'springer',
             'statista',
             'streams',
 	    'tumenu',
+            'tval',
             'vorkurs',
             'wahl',
             'walomat',
@@ -942,6 +959,7 @@ class Route {
             'rts',
             'sbrml',
             'scivis',
+            'seip',
             'smds',
             'st',
             'tms',

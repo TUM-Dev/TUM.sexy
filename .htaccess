@@ -4,7 +4,6 @@ RewriteEngine On
 #Ignore direct access to the redirect folder
 RewriteRule ^redirect - [L,NC]
 
-RewriteEngine on
 RewriteCond %{HTTP_HOST} !^tum.sexy [NC]
 RewriteCond %{HTTP_HOST} !^www.tum.sexy [NC]
 RewriteCond %{REQUEST_FILENAME} !-f
