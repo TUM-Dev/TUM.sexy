@@ -6,7 +6,7 @@ COPY ./composer.lock /app
 
 RUN composer install --no-dev
 
-FROM php:8.2.12-apache
+FROM php:8.3.0-apache
 RUN a2enmod rewrite
 
 WORKDIR /var/www/html/
