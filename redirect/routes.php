@@ -469,6 +469,10 @@ class Route {
             'description' => 'Modellbildung und Simulation',
             'moodle_id'   => '63516',
         ],
+	'moodle-zips'           => [
+            'description' => 'Download Zips on Moodle, then sort by pattern',
+            'target'      => 'https://github.com/pczern/tum-get',
+        ],
         'mvs'              => [
             'description' => 'Mobile Verteilte Systeme',
             'target'      => 'https://www.os.in.tum.de/studium-und-lehre/ss18/mobile-verteilte-systeme/',
