@@ -118,6 +118,10 @@ class Route {
             'description' => 'Liste der Computer Science Lehrstühle',
             'target'      => 'https://www.cs.cit.tum.de/cs/forschung/professuren/',
         ],
+        'commuteplanner'  => [
+            'description'   => 'Automatische Routenplanung von, zu und zwischen TUM Events direkt im Kalendar',
+            'target'        => 'https://github.com/OfficialFreak/tum-commute-planner'
+        ],
         'comp'             => [
             'description' => 'Computational Complexity',
             'target'      => 'https://www7.in.tum.de/um/courses/complexity/SS19/',
@@ -871,6 +875,7 @@ class Route {
             'app',
             'artemis',
             'c',
+            'commuteplanner',
             'c2',
             'cvl',
             'dea',
