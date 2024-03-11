@@ -6,7 +6,7 @@ COPY ./composer.lock /app
 
 RUN composer install --no-dev
 
-FROM php:8.3.2-apache
+FROM php:8.3.3-apache
 RUN apt udate\
  && apt install wget\
  && rm -rf /var/lib/apt/lists/*
