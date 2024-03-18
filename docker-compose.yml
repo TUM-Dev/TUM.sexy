@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  tumsexy:
+    image: ghcr.io/tum-dev/tum.sexy/sexy-server:latest
+    restart: on-failure
+    networks:
+      - traefik_traefik
+
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.tumsexy.entrypoints=web"
+      - "traefik.http.routers.tumsexy.rule=Host(`tum.sexy`) || HostRegexp(`tum.sexy`, `{subdomain:[a-z0-9\\-]+}.tum.sexy`)"
+      - "traefik.http.routers.tumsexy.middlewares=webs-redirectscheme"
+
+      - "traefik.http.routers.tumsexy-secure.entrypoints=webs"
+      - "traefik.http.routers.tumsexy-secure.tls.domains[0].main=tum.sexy"
+      - "traefik.http.routers.tumsexy-secure.tls.domains[0].sans=*.tum.sexy"
+      - "traefik.http.routers.tumsexy-secure.tls.certresolver=sexyresolver"
+      - "traefik.http.routers.tumsexy-secure.rule=Host(`tum.sexy`) || HostRegexp(`tum.sexy`, `{subdomain:[a-z0-9\\-]+}.tum.sexy`)"
+      - "traefik.http.services.tumsexy-secure.loadbalancer.server.port=80"
+    healthcheck:
+      test: wget -q --spider http://localhost:80/img/pin-material.svg
+      retries: 5
+      start_period: 10s
+
+networks:
+  traefik_traefik:
+    external: true

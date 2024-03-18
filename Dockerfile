@@ -1,4 +1,4 @@
-FROM composer:2.6.6 as composer
+FROM composer:2.7.2 as composer
 
 WORKDIR /app
 COPY ./composer.json /app
@@ -6,7 +6,10 @@ COPY ./composer.lock /app
 
 RUN composer install --no-dev
 
-FROM php:8.3.2-apache
+FROM php:8.3.4-apache
+RUN apt update\
+ && apt install wget\
+ && rm -rf /var/lib/apt/lists/*
 RUN a2enmod rewrite
 
 WORKDIR /var/www/html/
