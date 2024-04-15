@@ -149,8 +149,8 @@ class Route {
         ],
         'crypto'           => [
             'description' => 'Kryptographie',
-            'target'      => 'https://www.sec.in.tum.de/i20/teaching/ss-2023/kryptografie',
-            'moodle_id' => '86223',
+            'target'      => 'https://www.sec.in.tum.de/i20/teaching/ss-2024/kryptografie',
+            'moodle_id' => '96175',
         ],
         'csc'              => [
             'description' => 'Computational Social Choice',
