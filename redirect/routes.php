@@ -85,6 +85,10 @@ class Route {
             'description' => 'Basic Mathematical Tools for Imaging & Visualization',
             'target'      => 'http://campar.in.tum.de/Chair/TeachingWs11BasicMathTools',
         ],
+        'bptm'              => [
+            'description' => 'Business Process Technologies and Management',
+            'moodle_id'   => '96125'
+        ],
         'c'                => [
             'description' => 'TUM Online',
             'target'      => 'https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/login',
