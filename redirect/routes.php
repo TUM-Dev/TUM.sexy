@@ -26,7 +26,7 @@ class Route {
         ],
         'agt'              => [
             'description' => 'Algorithmic Game Theory',
-            'target'      => 'https://www.cs.cit.tum.de/en/dss/teaching/summer-semester-2023/algorithmic-game-theory-ss23/',
+            'target'      => 'https://www.cs.cit.tum.de/en/dss/teaching/summer-semester-2024/algorithmic-game-theory-ss24/',
         ],
         'algebra1'         => [
             'description' => 'Algebra 1',
