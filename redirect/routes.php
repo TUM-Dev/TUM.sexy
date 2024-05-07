@@ -710,7 +710,7 @@ class Route {
         'theo'             => [
             'description' => 'Einführung in die theoretische Informatik',
             'target'      => 'https://www.cs.cit.tum.de/tcs/lehre/sommersemester-2024/theo/',
-            'moodle_id'   => '86282',
+            'moodle_id'   => '96557',
         ],
         'theojudge'        => [
             'description' => 'TUMjudge - Einführung in die theoretische Informatik',
