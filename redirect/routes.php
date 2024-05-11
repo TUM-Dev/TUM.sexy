@@ -574,6 +574,10 @@ class Route {
             'description' => 'Rad Umfrage',
             'target'      => 'https://evasys.zv.tum.de/evasys/online.php?p=TUMbike',
         ],
+        're'            => [
+            'description' => 'Requirements Engineering',
+            'moodle_id'   => '96169',
+        ],
         'reddit'           => [
             'description' => 'ReddiTUM',
             'target'      => 'https://reddit.com/r/redditum',
