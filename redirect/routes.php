@@ -471,7 +471,7 @@ class Route {
         ],
         'mobilitaet'      => [
             'description' => 'Referat für Mobilität',
-            'target'      => 'https://www.sv.tum.de/das-sind-wir/allgemeiner-studentischer-ausschuss-asta/team/mobilitaet/',
+            'target'      => 'https://www.sv.tum.de/sv/team/mobilitaet/',
         ],
         'modsim'           => [
             'description' => 'Modellbildung und Simulation',
