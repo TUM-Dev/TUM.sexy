@@ -13,7 +13,7 @@ Code of https://tum.sexy. A website providing some links, redirects and tools re
 * ...
 
 **Projects** like
-* CalProxy: Removes clutter from TUMOnline Calendar and optimizes it (https://cal.bruck.me/)
+* CalProxy: Removes clutter from TUMOnline Calendar and optimizes it (https://cal.tum.app/)
 
 ### Contributing
 
