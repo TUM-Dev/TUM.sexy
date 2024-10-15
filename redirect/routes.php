@@ -152,8 +152,7 @@ class Route {
         ],
         'cpp'              => [
             'description' => 'Concepts of C++ programming (IN2377)',
-            'target'      => 'https://ciip.in.tum.de/teaching/cpp_ws23.html',
-            'moodle_id'   => '80267',
+            'target'      => 'https://db.in.tum.de/teaching/ws2425/cpp/?lang=en',
         ],
         'crypto'           => [
             'description' => 'Kryptographie',
@@ -206,7 +205,7 @@ class Route {
         ],
         'ea'               => [
             'description' => 'Efficient Algorithms',
-            'target'      => 'http://www14.in.tum.de/lehre/2019WS/ea/index.html.en',
+            'target'      => 'https://www14.in.tum.de/lehre/2024WS/ea/index.html',
         ],
         'eat-api'          => [
             'description' => 'eat-api output in a human readable format as well as the base url for eat-api calls',
@@ -647,7 +646,7 @@ class Route {
         ],
         'semantics'   => [
             'description' => 'Semantics of Programming Languages',
-            'target'      => 'https://www21.in.tum.de/teaching/semantics/WS22/index.html',
+            'target'      => 'https://www21.in.tum.de/teaching/semantics/WS24/index.html',
         ],
         'semesterticket'   => [
             'description' => 'Semesterticket München',
