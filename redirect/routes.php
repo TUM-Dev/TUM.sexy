@@ -349,7 +349,7 @@ class Route {
         ],
         'i2dl'             => [
             'description' => 'Introduction to Deep Learning',
-            'target'      => 'https://niessner.github.io/I2DL/',
+            'target'      => 'https://cvg.cit.tum.de/teaching/ws2024/i2dl',
         ],
         'ibmi'             => [
             'description' => 'Introduction to Biological and Medical Imaging',
