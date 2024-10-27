@@ -233,8 +233,8 @@ class Route {
         ],
         'era'              => [
             'description' => 'Einführung in die Rechnerarchitektur',
-            'target'      => 'https://www.ce.cit.tum.de/caps/lehre/ws22/vorlesungen/einfuehrung-in-die-rechnerarchitektur-era/',
-            'moodle_id'   => '80453',
+            'target'      => 'https://www.ce.cit.tum.de/caps/lehre/wintersemester-24-25/vorlesungen/einfuehrung-in-die-rechnerarchitektur-era/',
+            'moodle_id'   => '100633',
         ],
         'erdb'             => [
             'description' => 'Einsatz und Realisierung von Datenbanksystemen',
