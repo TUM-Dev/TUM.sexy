@@ -709,6 +709,10 @@ class Route {
             'description' => 'Livestream Studentische Vollversammlung',
             'target'      => 'https://live.rbg.tum.de/?year=2024&term=S&slug=svv&view=3',
         ],
+	'sv-gast'              => [
+            'description' => 'Formular zur Erstellung eines TUMOnline Gastaccounts für FS- und SV-Menschen',
+            'target'      => 'https://collab.dvb.bayern/x/9p6gB',
+        ],
         'ted'              => [
             'description' => 'TEDxTUM Event-Seite',
             'target'      => 'https://tedxtum.com',
@@ -831,6 +835,7 @@ class Route {
         'wahlomat'       => 'walomat',
         'zoom'           => 'conf',
         'zweidi'         => 'fpv',
+	'sv-gastaccount' => 'sv-gast',
     ];
 
     /**
