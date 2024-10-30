@@ -827,6 +827,7 @@ class Route {
         'semantik'       => 'semantics',
         'sp-ge'          => 'ge-sp',
         'sp-ma'          => 'ma-sp',
+	'sv-gastaccount' => 'sv-gast',
         'tex'            => 'sharelatex',
         'ticket'         => 'semesterticket',
         'tumi'           => 'esn',
@@ -835,7 +836,6 @@ class Route {
         'wahlomat'       => 'walomat',
         'zoom'           => 'conf',
         'zweidi'         => 'fpv',
-	'sv-gastaccount' => 'sv-gast',
     ];
 
     /**
