@@ -73,6 +73,10 @@ class Route {
             'description' => 'Studentische Vertretung – AStA',
             'target'      => 'https://www.sv.tum.de/startseite/',
         ],
+        'astra'             => [
+            'description' => 'A Student Recruiting Application - Tutor Application',
+            'target'      => 'https://astra.cit.tum.de',
+        ],
         'ausitsec'         => [
             'description' => 'ausgewählte Themen der IT-Sicherheit',
             'target'      => 'https://www.sec.in.tum.de/i20/teaching/ws2019/ausgewahlte-themen-aus-dem-bereich-it-sicherheit',
@@ -877,6 +881,7 @@ class Route {
         'Special'     => [
             'app',
             'artemis',
+            'astra',
             'c',
             'c2',
             'commuteplanner',
