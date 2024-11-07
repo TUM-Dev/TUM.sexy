@@ -235,6 +235,10 @@ class Route {
             'description' => 'enigame Puzzle Hunt (Escape Game) Event',
             'target'      => 'https://enig.ma.tum.de',
         ],
+        'ent'              => [
+            'description' => 'Entrepeneurship',
+            'moodle_id'   => '100432',
+        ],
         'era'              => [
             'description' => 'Einführung in die Rechnerarchitektur',
             'target'      => 'https://www.ce.cit.tum.de/caps/lehre/wintersemester-24-25/vorlesungen/einfuehrung-in-die-rechnerarchitektur-era/',
