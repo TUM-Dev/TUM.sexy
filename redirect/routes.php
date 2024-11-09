@@ -17,7 +17,7 @@ class Route {
         ],
         'advalgs'          => [
             'description' => 'Advanced Algorithms',
-            'target'      => 'http://www14.in.tum.de/lehre/2020WS/ada/index.html.en',
+            'target'      => 'https://www14.in.tum.de/lehre/2024WS/ada/index.html.en',
         ],
         'advist'           => [
             'description' => 'Advanced Data Handling and Visualization Techniques',
@@ -83,7 +83,7 @@ class Route {
         ],
         'automata'         => [
             'description' => 'Automata and Formal Languages',
-            'target'      => 'https://www.cs.cit.tum.de/tcs/lehre/ws22-23/automaten-und-formale-sprachen/',
+            'target'      => 'https://www.cs.cit.tum.de/tcs/lehre/wintersemester-2023-2024/automaten-und-formale-sprachen/',
         ],
         'bf'               => [
             'description' => 'Brückenfest 2022',
@@ -91,7 +91,7 @@ class Route {
         ],
         'bmt'              => [
             'description' => 'Basic Mathematical Tools for Imaging & Visualization',
-            'target'      => 'http://campar.in.tum.de/Chair/TeachingWs11BasicMathTools',
+            'target'      => 'https://ciip.in.tum.de/teaching/bmt_ws22.html',
         ],
         'bptm'              => [
             'description' => 'Business Process Technologies and Management',
@@ -119,7 +119,7 @@ class Route {
         ],
         'cbdp'             => [
             'description' => 'Cloud-Based Data Processing',
-            'target'      => 'https://db.in.tum.de/teaching/ws2223/clouddataprocessing',
+            'target'      => 'https://db.in.tum.de/teaching/ws2425/clouddataprocessing',
             'moodle_id'   => '80360',
         ],
         'chairs-ce'           => [
@@ -144,7 +144,7 @@ class Route {
         ],
         'compiler'         => [
             'description' => 'Compiler Construction',
-            'target'      => 'https://www.in.tum.de/i02/lehre/sommersemester-21/vorlesungen/compiler-construction/',
+            'target'      => 'https://www.cs.cit.tum.de/pl/lehre/sommersemester-23/vorlesungen/compiler-construction-1/',
         ],
         'conf'             => [
             'description' => 'TUM-Conf (Zoom)',
@@ -152,7 +152,7 @@ class Route {
         ],
         'conpra'           => [
             'description' => 'Practical Course: Algorithms for Programming Contests',
-            'target'      => 'https://www7.in.tum.de/um/courses/praktika/conpra/WS20/',
+            'target'      => 'https://www.cs.cit.tum.de/tcs/lehre/ss21/practical-course-algorithms-for-programming-contests/',
         ],
         'corona'           => [
             'description' => 'Coronavirus Information',
@@ -160,7 +160,7 @@ class Route {
         ],
         'cpp'              => [
             'description' => 'Concepts of C++ programming (IN2377)',
-            'target'      => 'https://db.in.tum.de/teaching/ws2425/cpp/?lang=en',
+            'target'      => 'https://db.in.tum.de/teaching/ws2425/cpp/',
         ],
         'crypto'           => [
             'description' => 'Kryptographie',
@@ -169,7 +169,7 @@ class Route {
         ],
         'csc'              => [
             'description' => 'Computational Social Choice',
-            'target'      => 'https://dss.in.tum.de/teaching/ws-18-19/37-teaching/semester/wintersemster-2018-19/193-computational-social-choice-2018-19.html',
+            'target'      => 'https://www.cs.cit.tum.de/en/dss/teaching/winter-semester-2024-25/computational-social-choice-ws-24-25/',
         ],
         'csdcps'           => [
             'description' => 'Concepts and Software Design for Cyberphysical Systems',
@@ -177,27 +177,27 @@ class Route {
         ],
         'cvl'              => [
             'description' => 'Carl von Linde-Akademie Kurse nach Themen',
-            'target'      => 'https://www.cvl-a.mcts.tum.de/lehrveranstaltungen/nach-themen/',
+            'target'      => 'https://www.sot.tum.de/wtg/lehrveranstaltungen/nach-themen/',
         ],
         'cvmvg'            => [
             'description' => 'Computer Vision II: Multiple View Geometry',
-            'target'      => 'https://vision.in.tum.de/teaching/ss2020/mvg2020',
+            'target'      => 'https://cvg.cit.tum.de/teaching/ss2024/cv2',
         ],
         'cvvm'             => [
             'description' => 'Computer Vision I: Variational Methods',
-            'target'      => 'https://vision.in.tum.de/teaching/online/cvvm',
+            'target'      => 'https://cvg.cit.tum.de/teaching/online/cvvm',
         ],
         'db'               => [
             'description' => 'Grundlagen: Datenbanken',
-            'target'      => 'https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950763749',
+            'target'      => 'https://db.in.tum.de/teaching/ws2425/grundlagen',
         ],
         'dea'              => [
             'description' => 'Studienplan von Data Engineering & Analytics',
-            'target'      => 'https://www.in.tum.de/en/current-students/masters-programs/data-engineering-and-analytics/compulsory-elective-and-support-elective-modules/fpso-2018/',
+            'target'      => 'https://www.cit.tum.de/en/cit/studies/degree-programs/master-data-engineering-and-analytics/',
         ],
         'diversity'        => [
             'description' => 'Diversity & Queer Referat',
-            'target'      => 'https://www.sv.tum.de/asta/team/diversityqueer/',
+            'target'      => 'https://www.sv.tum.de/sv/team/diversityqueer/',
         ],
         'ds'               => [
             'description' => 'Diskrete Strukturen (Moodle-Kurs)',
@@ -209,7 +209,7 @@ class Route {
         ],
         'dwt'              => [
             'description' => 'Diskrete Wahrscheinlichkeitstheorie',
-            'target'      => 'https://wwwalbers.in.tum.de/lehre/2023SS/dwt/index.html.de',
+            'target'      => 'https://wwwalbers.in.tum.de/lehre/2024SS/dwt/index.html.de',
         ],
         'ea'               => [
             'description' => 'Efficient Algorithms',
@@ -250,7 +250,7 @@ class Route {
         ],
         'erdb'             => [
             'description' => 'Einsatz und Realisierung von Datenbanksystemen',
-            'target'      => 'https://db.in.tum.de/teaching/ss23/impldb/',
+            'target'      => 'https://db.in.tum.de/teaching/ss24/impldb/',
         ],
         'esn'              => [
             'description' => 'International engagement: ESN TUMi e.V.',
@@ -262,7 +262,7 @@ class Route {
         ],
         'evpro'            => [
             'description' => 'Event Processing',
-            'target'      => 'https://www.in.tum.de/i13/teaching/summer-semester-2020/event-processing/',
+            'target'      => 'https://www.cs.cit.tum.de/dis/teaching/summer-semester-2022/event-processing/',
             'moodle_id'   => '53173',
         ],
         'exzellenz'        => [
@@ -301,7 +301,7 @@ class Route {
         ],
         'ge-ma-sp'         => [
             'description' => 'Studienplan M.Sc. Informatik: Games Engineering',
-            'target'      => 'https://www.in.tum.de/de/fuer-studierende/master-studiengaenge/informatik-games-engineering/curriculum/',
+            'target'      => 'https://www.cit.tum.de/cit/studium/studiengaenge/master-informatik-games-engineering/',
         ],
         'ge-sp'            => [
             'description' => 'Studienplan B.Sc. Informatik: Games Engineering',
@@ -309,7 +309,7 @@ class Route {
         ],
         'ged'              => [
             'description' => 'Game Engine Design',
-            'target'      => 'https://www.in.tum.de/cg/teaching/summer-term-19/echtzeit-computergrafik/',
+            'target'      => 'https://www.cs.cit.tum.de/cg/teaching/summer-term-24/realtime-computer-graphics/',
         ],
         'geokalkuele'      => [
             'description' => 'Geometriekalküle',
@@ -317,7 +317,7 @@ class Route {
         ],
         'gin'          => [
             'description' => 'Check out the excellent TUM-Gin',
-            'target'      => 'https://shop.tum.de/getraenke/94/tum-gin',
+            'target'      => 'https://shop.tum.de/product/tum-gin/',
         ],
         'git-tut'          => [
             'description' => 'Getting started with Git? Learn the basics for the console. With Visualizations!',
@@ -337,7 +337,7 @@ class Route {
         ],
         'gog'              => [
             'description' => 'Games on Graphs',
-            'target'      => 'https://www7.in.tum.de/um/courses/gog/ss17/index.php',
+            'target'      => 'https://www.cs.cit.tum.de/tcs/lehre/ss21/games-on-graphs/',
         ],
         'gra'     => [
             'description' => 'Grundlagenpraktikum Rechnerarchitektur',
@@ -377,15 +377,15 @@ class Route {
         ],
         'ilab1'            => [
             'description' => 'Practical Course: iLab1 - Build your own Internet',
-            'target'      => 'https://ilab.net.in.tum.de',
+            'target'      => 'https://www.net.in.tum.de/teaching/ws2425/ilab_information.html',
         ],
         'ilab2'            => [
             'description' => 'Practical Course: iLab2 - You set the Focus',
-            'target'      => 'https://ilab2.net.in.tum.de',
+            'target'      => 'https://www.net.in.tum.de/teaching/ws2425/ilab_information.html',
         ],
         'ilabx'            => [
             'description' => 'Practical Course: iLabX - The Virtual Internet Laboratory (block)',
-            'target'      => 'https://ilabx.net.in.tum.de',
+            'target'      => 'https://www.net.in.tum.de/teaching/ws2425/ilab_information.html',
         ],
         'imgtech'          => [
             'description' => 'Medical Imaging Technology',
@@ -393,7 +393,7 @@ class Route {
         ],
         'io'               => [
             'description' => 'Information Officer',
-            'target'      => 'https://www.sv.tum.de/asta/io/',
+            'target'      => 'https://www.sv.tum.de/sv/team/io/',
         ],
         'itguide'          => [
             'description' => 'detailed overview over it-infrastructure during the studies',
@@ -406,7 +406,7 @@ class Route {
         ],
         'ja'               => [
             'description' => 'Junge Akademie',
-            'target'      => 'https://www.ja.tum.de/start/',
+            'target'      => 'https://www.ja.tum.de/ja/start/',
         ],
         'julius'           => [
             'description' => 'Julius Kreutz Tutoriums Website',
@@ -422,7 +422,7 @@ class Route {
         ],
 	'lambda'           => [
 	    'description' => 'Lambda Calculus',
-	    'target'      => 'https://www21.in.tum.de/teaching/lambda/WS22/index.html',
+	    'target'      => 'https://www21.in.tum.de/teaching/lambda/WS23/index.html',
             'moodle_id'   => '80136',
 	],
         'langenacht'       => [
@@ -510,7 +510,7 @@ class Route {
         ],
         'netsec'           => [
             'description' => 'Network Security - Netzsicherheit',
-            'target'      => 'https://www.net.in.tum.de/teaching/ws2223/netsec.html',
+            'target'      => 'https://www.net.in.tum.de/teaching/ws2425/netsec.html',
         ],
         'nix'              => [
             'description' => 'GLÜHNIX',
@@ -541,8 +541,8 @@ class Route {
             'target'      => 'https://tum.cloud.panopto.eu',
         ],
         'pgdp'             => [
-            'description' => 'Praktikum: Grundlagen der Programmierung (Moodle-Kurs)',
-            'moodle_id'   => '100771',
+            'description' => 'Praktikum: Grundlagen der Programmierung (Artemis-Kurs)',
+            'target'      => 'https://artemis.cit.tum.de/courses/404',
         ],
         'pgdpunittests'     => [
             'description' => 'Unit - Tests: Praktikum Grundlagen der Programmierung',
@@ -550,11 +550,11 @@ class Route {
         ],
         'pgm'              => [
             'description' => 'Probabilistic Graphical Models in Computer Vision',
-            'target'      => 'https://vision.in.tum.de/teaching/ss2017/pgmcv',
+            'target'      => 'https://cvg.cit.tum.de/teaching/ss2017/pgmcv',
         ],
         'pl'               => [
             'description' => 'Programming Languages',
-            'target'      => 'https://www.in.tum.de/i02/lehre/wintersemester-2122/vorlesungen/programming-languages/',
+            'target'      => 'https://www.cs.cit.tum.de/pl/lehre/wintersemester-24-25/vorlesungen/advanced-concepts-of-programming-languages/',
         ],
         'pp'               => [
             'description' => 'Protein Prediction 1',
@@ -570,7 +570,7 @@ class Route {
         ],
         'progopt'          => [
             'description' => 'Program Optimization',
-            'target'      => 'https://www.in.tum.de/i02/lehre/wintersemester-2122/vorlesungen/program-optimization/',
+            'target'      => 'https://www.cs.cit.tum.de/pl/lehre/wintersemester-2122/vorlesungen/program-optimization-1-1-1/',
         ],
         'pse'              => [
             'description' => 'Patterns in Software Engineering',
@@ -578,7 +578,7 @@ class Route {
         ],
         'qo'               => [
             'description' => 'Query Optimization',
-            'target'      => 'https://db.in.tum.de/teaching/ws2324/queryopt/',
+            'target'      => 'https://db.in.tum.de/teaching/ws2425/queryopt/',
         ],
         'quintero'         => [
             'description' => 'Mathias Quintero',
@@ -602,7 +602,7 @@ class Route {
         ],
         'restplaetze'      => [
             'description' => 'Liste der Restplätze in Seminaren und Praktika',
-            'target'      => 'https://www.in.tum.de/fuer-studierende/module-und-veranstaltungen/praktika-und-seminare/',
+            'target'      => 'https://www.cit.tum.de/cit/studium/studierende/pruefungsangelegenheiten-module/informatik/praktika-seminare/',
         ],
         'rmp'              => [
             'description' => 'Robot Motion Planning',
@@ -618,7 +618,7 @@ class Route {
         ],
         'rpchi'            => [
             'description' => 'Robot Programming and Control for Human Interaction',
-            'target'      => 'https://www.in.tum.de/i23/teaching/robot-programming-and-control-for-human-interaction/',
+            'target'      => 'https://www.ce.cit.tum.de/rm/teaching/robot-programming-and-control-for-human-interaction/',
         ],
         'rts'              => [
             'description' => 'Echtzeitsysteme / Real Time Systems',
@@ -638,7 +638,7 @@ class Route {
         ],
         'scivis'           => [
             'description' => 'Scientific Visualization / Visual Data Analytics',
-            'target'      => 'https://www.in.tum.de/cg/teaching/winter-term-2021/visual-data-analytics/',
+            'target'      => 'https://www.cs.cit.tum.de/cg/teaching/winter-term-24-25/visual-data-analytics/',
         ],
         'scopus'           => [
             'description' => 'TUM UB Scopus Login (eAccess)',
@@ -678,7 +678,7 @@ class Route {
         ],
         'smds'             => [
             'description' => 'Seminar Modern Database Systems',
-            'target'      => 'https://db.in.tum.de/teaching/ss22/seminarModernDatabaseSystems/',
+            'target'      => 'https://db.in.tum.de/teaching/ss24/seminarModernDatabaseSystems/',
         ],
         'social'           => [
             'description' => 'TUM Social Network (Mastodon Instance)',
@@ -690,7 +690,7 @@ class Route {
 		],
         'sp18'               => [
             'description' => 'Studienplan B.Sc. Informatik beginn WS 18/19',
-            'target'      => 'https://www.in.tum.de/fuer-studierende/bachelor-studiengaenge/informatik/studienplan/studienbeginn-wise-201819-bis-sose-2021/',
+            'target'      => 'https://www.cit.tum.de/cit/studium/studiengaenge/bachelor-informatik/studienplan/#c332',
 		],
 		'spaetzle'		   => [
             'description' => 'Spätzle Ticker',
@@ -702,7 +702,7 @@ class Route {
         ],
         'st'               => [
             'description' => 'Signaltheorie',
-            'target'      => 'https://www.ei.tum.de/mmk/lehre/signaltheorie-ab-ws1920/',
+            'target'      => 'https://www.ce.cit.tum.de/mmk/lehre/signaltheorie-ab-ws1920/',
             'moodle_id'   => '44034',
         ],
         'statista'         => [
@@ -715,7 +715,7 @@ class Route {
         ],
         'study'            => [
             'description' => 'Arbeitsplatz reservieren',
-            'target'      => 'https://www.ub.tum.de/arbeitsplatz-reservieren',
+            'target'      => 'https://www.ub.tum.de/reservierung-lernplaetze',
         ],
 	'sv-gast'          => [
             'description' => 'Formular zur Erstellung eines TUMonline Gastaccounts für FS- und SV-Menschen',
@@ -744,7 +744,7 @@ class Route {
         ],
         'ts'              => [
             'description' => 'Transaction Systems',
-            'target'      => 'https://db.in.tum.de/teaching/ss23/transactions/',
+            'target'      => 'https://db.in.tum.de/teaching/ss24/transactions/',
         ],
 	'tumenu'           => [
             'description' => 'The place, where you can find daily menus for some student places in Munich',
@@ -760,15 +760,15 @@ class Route {
         ],
         'vm'               => [
             'description' => 'Virtual Machines',
-            'target'      => 'https://www.in.tum.de/i02/lehre/sommersemester-20/vorlesungen/virtual-machines/',
+            'target'      => 'https://www.cs.cit.tum.de/pl/lehre/sommersemester-23/vorlesungen/virtual-machines-1/',
         ],
         'vorkurs'          => [
             'description' => 'Mathematik Vorkurs für Informatiker',
-            'target'      => 'https://www.ma.tum.de/de/studium/vorkurse-ferienkurse/informatik.html',
+            'target'      => 'https://www.cit.tum.de/cit/studienbeginn/vorkurse-ferienkurse-mathematik/informatik/',
         ],
         'vt'               => [
             'description' => 'Virtualization Techniques',
-            'target'      => 'https://www.caps.in.tum.de/lehre/ws21/vorlesungen/virtualization-techniques/',
+            'target'      => 'https://www.ce.cit.tum.de/caps/lehre/wintersemester-24-25/vorlesungen/virtualization-techniques/',
         ],
         'wahl'             => [
             'description' => 'Hochschulwahlen',
@@ -875,6 +875,7 @@ class Route {
             'anal',
             'db',
             'gbs',
+            'itsec',
         ],
         '4. Semester' => [
             'grnvs',
@@ -964,7 +965,6 @@ class Route {
             'ilab1',
             'ilab2',
             'ilabx',
-            'itsec',
             'ki',
             'markov',
             'ml',
