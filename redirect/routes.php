@@ -136,8 +136,8 @@ class Route {
         ],
         'cis'                 => [
             'description' => 'Cloud Information Systems',
-            'moodle_id'   => '100537'
-        ]
+            'moodle_id'   => '100537',
+        ],
         'commuteplanner'  => [
             'description'   => 'Automatische Routenplanung von, zu und zwischen TUM Events direkt im Kalendar',
             'target'        => 'https://github.com/OfficialFreak/tum-commute-planner'
