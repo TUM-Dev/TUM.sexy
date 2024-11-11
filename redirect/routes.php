@@ -727,7 +727,7 @@ class Route {
         ],
         'svv'              => [
             'description' => 'Livestream Studentische Vollversammlung',
-            'target'      => 'https://live.rbg.tum.de/?year=2024&term=S&slug=svv&view=3',
+            'target'      => 'https://tum.live/?year=2024&term=W&slug=svv-ws&view=3',
         ],
         'ted'              => [
             'description' => 'TEDxTUM Event-Seite',
