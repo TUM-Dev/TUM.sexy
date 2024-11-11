@@ -83,7 +83,7 @@ class Route {
         ],
         'automata'         => [
             'description' => 'Automata and Formal Languages',
-            'target'      => 'https://www.cs.cit.tum.de/tcs/lehre/wintersemester-2023-2024/automaten-und-formale-sprachen/',
+            'moodle_id'      => '100371',
         ],
         'bf'               => [
             'description' => 'Brückenfest 2022',
