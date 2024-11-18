@@ -729,6 +729,10 @@ class Route {
             'description' => 'Livestream Studentische Vollversammlung',
             'target'      => 'https://tum.live/?year=2024&term=W&slug=svv-ws&view=3',
         ],
+        'tandem'            => [
+            'description' => 'TUM Tandem',
+            'moodle_id'   => '105301',
+        ],
         'ted'              => [
             'description' => 'TEDxTUM Event-Seite',
             'target'      => 'https://tedxtum.com',
