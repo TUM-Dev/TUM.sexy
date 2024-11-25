@@ -194,6 +194,7 @@ class Route {
         'db'               => [
             'description' => 'Grundlagen: Datenbanken',
             'target'      => 'https://db.in.tum.de/teaching/ws2425/grundlagen',
+            'moodle_id'   => '100522',
         ],
         'dea'              => [
             'description' => 'Studienplan von Data Engineering & Analytics',
@@ -761,6 +762,10 @@ class Route {
         'tval'            => [
             'description' => 'Status of the Validation Stations',
             'target'      => 'https://campus.tum.de/valistatus/en/',
+        ],
+        'umbra'            => [
+            'description' => 'Umbra DB Webschnittstelle',
+            'target'      => 'https://umbra.db.in.tum.de/interface/',
         ],
         'unidb'            => [
             'description' => 'Unischema von Prof. Kemper',
