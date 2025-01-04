@@ -65,6 +65,10 @@ class Route {
             'target'      => 'https://wwwmatthes.in.tum.de/pages/c9ulr7t9nrqs/Advanced-Topics-of-Software-Engineering',
             'moodle_id'   => '80385',
         ],
+        'aso'           => [
+            'description' => 'Applied Strategy and Organization',
+            'moodle_id'   => '104822',
+        ],
         'asp'              => [
             'description' => 'Aspekte der systemnahen Programmierung bei der Spieleentwicklung',
             'target'      => 'https://asp.caps.in.tum.de/login',
