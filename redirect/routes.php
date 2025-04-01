@@ -57,8 +57,8 @@ class Route {
             'target'      => 'https://home.in.tum.de/~arb/',
         ],
         'artemis'          => [
-            'description' => 'Artemis platform (Applied Software Engineering)',
-            'target'      => 'https://artemis.cit.tum.de',
+            'description' => 'Artemis platform (Applied Education Technologies)',
+            'target'      => 'https://artemis.tum.de',
         ],
         'ase'              => [
             'description' => 'Advanced Topics In Software Engineering',
@@ -551,7 +551,7 @@ class Route {
         ],
         'pgdp'             => [
             'description' => 'Praktikum: Grundlagen der Programmierung (Artemis-Kurs)',
-            'target'      => 'https://artemis.cit.tum.de/courses/404',
+            'target'      => 'https://artemis.tum.de/courses/404',
         ],
         'pgdpunittests'     => [
             'description' => 'Unit - Tests: Praktikum Grundlagen der Programmierung',
@@ -583,7 +583,7 @@ class Route {
         ],
         'pse'              => [
             'description' => 'Patterns in Software Engineering',
-            'target'      => 'https://artemis.cit.tum.de/courses/209',
+            'target'      => 'https://artemis.tum.de/courses/209',
         ],
         'qo'               => [
             'description' => 'Query Optimization',
