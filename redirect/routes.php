@@ -238,7 +238,8 @@ class Route {
         ],
         'eist'             => [
             'description' => 'Einführung in die Softwaretechnik',
-            'target'      => 'https://dse.in.tum.de/teaching/eist-24/',
+            'target'      => 'https://dse.in.tum.de/teaching/eist-25/',
+            'moodle_id'   => '106644',
         ],
         'enigame'          => [
             'description' => 'enigame Puzzle Hunt (Escape Game) Event',
@@ -288,12 +289,13 @@ class Route {
         ],
         'fpv'              => [
             'description' => 'Functional Programming and Verification',
-            'target'      => 'https://www.cs.cit.tum.de/pl/lehre/wintersemester-2122/vorlesungen/functional-programming-and-verification/',
+            'target'      => 'https://www.cs.cit.tum.de/pl/lehre/sommersemester-23/vorlesungen/functional-programming-and-verification-1/',
+            'moodle_id'   => '106671',
         ],
         'gad'              => [
-            'description' => 'Grundlegende Algorithmen und Datenstrukturen',
-            'target'      => 'https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950763749',
-            'moodle_id'   => '86017',
+            'description' => 'Grundlagen: Algorithmen und Datenstrukturen',
+            'target'      => 'https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950798466',
+            'moodle_id'   => '106630',
         ],
         'gadunittests'     => [
             'description' => 'Unit - Tests: Grundlegende Algorithmen und Datenstrukturen',
@@ -425,18 +427,18 @@ class Route {
             'description' => 'Grundlagen der künstlichen Intelligenz',
             'moodle_id'   => '58014',
         ],
-	'lambda'           => [
-	    'description' => 'Lambda Calculus',
-	    'target'      => 'https://www21.in.tum.de/teaching/lambda/WS23/index.html',
+	    'lambda'           => [
+	        'description' => 'Lambda Calculus',
+	        'target'      => 'https://www21.in.tum.de/teaching/lambda/WS23/index.html',
             'moodle_id'   => '80136',
-	],
+	    ],
         'langenacht'       => [
             'description' => 'Lange Nacht der Univeristäten',
             'target'      => 'https://www.facebook.com/events/2681178088623650/',
         ],
         'linalg'           => [
             'description' => 'Lineare Algebra für Informatik',
-            'target'      => 'https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950729947',
+            'moodle_id'   => '110302',
         ],
         'live'             => [
             'description' => 'Livestreams und Aufzeichnungen von Vorlesungen',
@@ -605,6 +607,10 @@ class Route {
             'description' => 'All menus that are not older than one day for all locations from the eat-api in JSON',
             'target'      => 'https://tum-dev.github.io/eat-api/all_ref.json',
         ],
+        'relax'            => [
+            'description' => 'RelaX relational algebra calculator',
+            'target'      => 'https://dbis-uibk.github.io/relax/calc/local/uibk/local/1',
+        ],
         'restplaetze'      => [
             'description' => 'Liste der Restplätze in Seminaren und Praktika',
             'target'      => 'https://www.cit.tum.de/cit/studium/studierende/pruefungsangelegenheiten-module/informatik/praktika-seminare/',
@@ -769,7 +775,7 @@ class Route {
         ],
         'unidb'            => [
             'description' => 'Unischema von Prof. Kemper',
-            'target'      => 'https://db.in.tum.de/teaching/ws2021/grundlagen/uni.png',
+            'target'      => 'https://db.in.tum.de/teaching/ws2425/grundlagen/uni.png',
         ],
         'vm'               => [
             'description' => 'Virtual Machines',
