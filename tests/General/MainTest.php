@@ -15,7 +15,7 @@ class MainTest extends \PHPUnit\Framework\TestCase {
         $this->assertStringContainsString('https://www.moodle.tum.de/course/view.php?id=100579', $router->getTargetOfSub('mgbs.tum.sexy'));
 
         // Normal redirect still works, even if it has moodle type assigned
-        $this->assertStringContainsString('https://www.cs.cit.tum.de/tcs/lehre/sommersemester-2024/theo/', $router->getTargetOfSub('theo.tum.sexy'));
+        $this->assertStringContainsString('https://www14.in.tum.de/lehre/2025SS/theo/index.html.en', $router->getTargetOfSub('theo.tum.sexy'));
     }
 
     public function testJsonOutput() {
