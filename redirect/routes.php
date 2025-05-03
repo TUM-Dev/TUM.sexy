@@ -750,8 +750,8 @@ class Route {
         ],
         'theo'             => [
             'description' => 'Einführung in die theoretische Informatik',
-            'target'      => 'https://www.cs.cit.tum.de/tcs/lehre/sommersemester-2024/theo/',
-            'moodle_id'   => '96557',
+            'target'      => 'https://www14.in.tum.de/lehre/2025SS/theo/index.html.en',
+            'moodle_id'   => '106036',
         ],
         'theotutor'        => [
             'description' => 'Einführung in die theoretische Informatik: Automatatutor',
