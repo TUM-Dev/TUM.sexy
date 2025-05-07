@@ -99,7 +99,7 @@ class Route {
         ],
         'bptm'              => [
             'description' => 'Business Process Technologies and Management',
-            'moodle_id'   => '96125'
+            'moodle_id'   => '105938'
         ],
         'c'                => [
             'description' => 'TUM Online',
