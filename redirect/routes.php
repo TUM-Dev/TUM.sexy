@@ -539,6 +539,10 @@ class Route {
             'description' => 'Natural Language Processing',
             'moodle_id'   => '80381',
         ],
+        'nmo'              => [
+            'description' => 'Communication Networks Modeling and Optimization',
+            'moodle_id'   => '107175',
+        ],
         'numprog'          => [
             'description' => 'Numerisches Programmieren',
             'moodle_id'   => '100678',
