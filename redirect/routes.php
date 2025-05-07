@@ -776,8 +776,8 @@ class Route {
         'tsp'           => [
             'description' => 'Trade Secret Protection',
             'moodle_id'   => '107826',
-        ]
-	'tumenu'           => [
+        ],
+	    'tumenu'           => [
             'description' => 'The place, where you can find daily menus for some student places in Munich',
             'target'      => 'https://menu.tum.sexy/',
         ],
