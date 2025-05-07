@@ -773,7 +773,11 @@ class Route {
             'description' => 'Transaction Systems',
             'target'      => 'https://db.in.tum.de/teaching/ss24/transactions/',
         ],
-	'tumenu'           => [
+        'tsp'           => [
+            'description' => 'Trade Secret Protection',
+            'moodle_id'   => '107826',
+        ],
+	    'tumenu'           => [
             'description' => 'The place, where you can find daily menus for some student places in Munich',
             'target'      => 'https://menu.tum.sexy/',
         ],
