@@ -26,7 +26,7 @@ class Route {
         ],
         'agt'              => [
             'description' => 'Algorithmic Game Theory',
-            'target'      => 'https://www.cs.cit.tum.de/en/dss/teaching/summer-semester-2024/algorithmic-game-theory-ss24/',
+            'target'      => 'https://www.cs.cit.tum.de/en/dss/teaching/summer-semester-2025/algorithmic-game-theory-ss25/',
         ],
         'algebra1'         => [
             'description' => 'Algebra 1',
@@ -99,7 +99,7 @@ class Route {
         ],
         'bptm'              => [
             'description' => 'Business Process Technologies and Management',
-            'moodle_id'   => '96125'
+            'moodle_id'   => '105938'
         ],
         'c'                => [
             'description' => 'TUM Online',
@@ -771,7 +771,7 @@ class Route {
         ],
         'ts'              => [
             'description' => 'Transaction Systems',
-            'target'      => 'https://db.in.tum.de/teaching/ss24/transactions/',
+            'target'      => 'https://db.in.tum.de/teaching/ss25/transactions/',
         ],
         'tsp'           => [
             'description' => 'Trade Secret Protection',
