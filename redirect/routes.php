@@ -362,6 +362,10 @@ class Route {
             'description' => 'DocGS',
             'target'      => 'https://www.docgs.tum.de',
         ],
+        'guessr'          => [
+            'description' => 'TUM-Guessr: GeoGuessr style game but for TUM campuses.',
+            'target'      => 'https://tum-guessr.de',
+        ],
         'hunger'           => [
             'description' => 'Mensa Speiseplan',
             'target'      => 'https://menu.tum.sexy/',
