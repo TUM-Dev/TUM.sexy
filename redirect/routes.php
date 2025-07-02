@@ -950,6 +950,7 @@ class Route {
             'ge-sp',
             'git-tut',
             'gitlab',
+            'guessr',
             'hunger',
             'ieee',
             'live',
