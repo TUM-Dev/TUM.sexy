@@ -880,7 +880,7 @@ class Route {
         'patterns'       => 'pse',
         'protein'        => 'pp',
         'queer'          => 'diversity',
-	'printer'	 => 'drucken'
+	'printer'	 => 'drucken',
         'roomfinder'     => 'finder',
         'rooms'          => 'room',
         'schach'         => 'chess',
