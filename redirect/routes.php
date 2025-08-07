@@ -208,6 +208,10 @@ class Route {
             'description' => 'Diversity & Queer Referat',
             'target'      => 'https://www.sv.tum.de/sv/team/diversityqueer/',
         ],
+	'drucken'             => [
+            'description' => 'Drucker service RBG',
+            'target'      => 'https://qpilot.rbg.tum.de',
+        ],
         'ds'               => [
             'description' => 'Diskrete Strukturen (Moodle-Kurs)',
             'moodle_id'   => '100934',
@@ -876,6 +880,7 @@ class Route {
         'patterns'       => 'pse',
         'protein'        => 'pp',
         'queer'          => 'diversity',
+	'printer'	 => 'drucken'
         'roomfinder'     => 'finder',
         'rooms'          => 'room',
         'schach'         => 'chess',
@@ -944,6 +949,7 @@ class Route {
             'ecarus',
             'enigame',
             'esn',
+	    'drucken',
             'film',
             'finder',
             'ge-ma-sp',
