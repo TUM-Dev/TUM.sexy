@@ -44,6 +44,10 @@ class Route {
             'description' => 'Praktikum: Android Security',
             'target'      => 'https://www22.in.tum.de/en/teaching/android-security-lab/',
         ],
+        'anny'       => [
+            'description' => 'anny.eu | Book group rooms, study desks',
+            'target'      => 'https://anny.eu/en/explore/university-library-technical-university-of-munich/resources',
+        ],
         'apollon'         => [
             'description' => 'Apollon UML Modeling Editor',
             'target'      => 'https://apollon.ase.in.tum.de/',
