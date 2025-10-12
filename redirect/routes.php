@@ -431,6 +431,10 @@ class Route {
             'description' => 'Julius Kreutz Tutoriums Website',
             'target'      => 'https://julius-kreutz.de',
         ],
+        'kaffee'              => [
+            'description' => 'Anleitung für die Kaffeemaschine der Fachschaft MPIC in der MI',
+            'target'      => 'https://wiki.fs.tum.de/books/fs-mpic-allgemein/page/how-to-kaffeemaschine',
+        ],
         'kap'              => [
             'description' => 'Klinisches Anwendungsprojekt KAP (Medizin-Anwendungsfach)',
             'target'      => 'https://gist.github.com/Jolly5/6bfe61e2e844e3c1efb56f02e4354cee',
