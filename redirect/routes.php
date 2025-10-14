@@ -214,7 +214,7 @@ class Route {
         ],
         'ds'               => [
             'description' => 'Diskrete Strukturen (Moodle-Kurs)',
-            'moodle_id'   => '100934',
+            'moodle_id'   => '114276',
         ],
 	'dsolver'          => [
             'description' => 'DSolver',
@@ -242,7 +242,7 @@ class Route {
         ],
         'eidi'            => [
             'description' => 'Einführung in die Informatik (Moodle-Kurs)',
-            'moodle_id'   => '100933',
+            'moodle_id'   => '111399',
         ],
         'eist'             => [
             'description' => 'Einführung in die Softwaretechnik',
@@ -260,7 +260,7 @@ class Route {
         'era'              => [
             'description' => 'Einführung in die Rechnerarchitektur',
             'target'      => 'https://www.ce.cit.tum.de/caps/lehre/wintersemester-24-25/vorlesungen/einfuehrung-in-die-rechnerarchitektur-era/',
-            'moodle_id'   => '100633',
+            'moodle_id'   => '111440',
         ],
         'erdb'             => [
             'description' => 'Einsatz und Realisierung von Datenbanksystemen',
