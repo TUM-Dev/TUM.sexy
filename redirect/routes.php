@@ -602,6 +602,7 @@ class Route {
         'semantics'   => [
             'description' => 'Semantics of Programming Languages',
             'target'      => 'https://www21.in.tum.de/teaching/semantics/WS25/index.html',
+            'moodle_id'   => '114999',
         ],
         'semesterticket'   => [
             'description' => 'Semesterticket München',
@@ -655,6 +656,10 @@ class Route {
         'study'            => [
             'description' => 'Arbeitsplatz reservieren',
             'target'      => 'https://www.ub.tum.de/reservierung-lernplaetze',
+        ],
+        'studyplanner'            => [
+            'description' => 'StudyPlanner',
+            'target'      => 'https://studyplanner.co.cit.tum.de/',
         ],
         'sv-gast'          => [
             'description' => 'Formular zur Erstellung eines TUMonline Gastaccounts für FS- und SV-Menschen',
