@@ -34,7 +34,7 @@ class Route {
         ],
         'anal'             => [
             'description' => 'Analysis für Informatik',
-            'target'      => 'https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950836617',
+            'moodle_id'   => '112336',
         ],
         'anny'       => [
             'description' => 'anny.eu | Book group rooms, study desks',
@@ -258,7 +258,7 @@ class Route {
         'gbs'              => [
             'description' => 'Grundlagen: Betriebssysteme und Systemsoftware',
             'target'      => 'http://gbs.cm.in.tum.de',
-            'moodle_id'   =>   '100579',
+            'moodle_id'   =>  '111344',
         ],
         'ge-ma-sp'         => [
             'description' => 'Studienplan M.Sc. Informatik: Games Engineering',
@@ -358,8 +358,8 @@ class Route {
         ],
         'itsec'            => [
             'description' => 'IT-Sicherheit',
-            'target'      => 'https://www.sec.in.tum.de/i20/teaching/ws-2025/copy_of_it-sicherheit-in0042',
-            'moodle_id'   => '82495',
+            'target'      => 'https://scoreboard.sec.in.tum.de/scoreboard',
+            'moodle_id'   => '111422',
         ],
         'ja'               => [
             'description' => 'Junge Akademie',
@@ -477,7 +477,7 @@ class Route {
         ],
         'numprog'          => [
             'description' => 'Numerisches Programmieren',
-            'moodle_id'   => '100678',
+            'moodle_id'   => '110791',
         ],
         'o'                => [
             'description' => 'TUM Opac',
