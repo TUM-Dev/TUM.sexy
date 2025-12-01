@@ -6,7 +6,7 @@ COPY ./composer.lock /app
 
 RUN composer install --no-dev
 
-FROM php:8.4.14-apache
+FROM php:8.5.0-apache
 RUN apt update\
  && apt install wget\
  && rm -rf /var/lib/apt/lists/*
