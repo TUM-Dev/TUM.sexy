@@ -237,10 +237,6 @@ class Route {
             'description' => 'tu film',
             'target'      => 'https://www.tu-film.de/',
         ],
-        'finder'           => [
-            'description' => 'Roomfinder',
-            'target'      => 'https://www.ph.tum.de/about/visit/roomfinder/',
-        ],
         'fpv'              => [
             'description' => 'Functional Programming and Verification',
             'target'      => 'https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950798509',
@@ -452,10 +448,6 @@ class Route {
             'target'      => 'https://github.com/pczern/tum-get',
         ],
         'nav'        => [
-            'description' => 'NavigaTUM - Finde Räume, Gebäude und andere Orte an der TUM mit Exzellenz. Eine moderne Alternative zum RoomFinder, entwickelt von Studierenden.',
-            'target'      => 'https://nav.tum.de',
-        ],
-        'navigatum'        => [
             'description' => 'NavigaTUM - Finde Räume, Gebäude und andere Orte an der TUM mit Exzellenz. Eine moderne Alternative zum RoomFinder, entwickelt von Studierenden.',
             'target'      => 'https://nav.tum.de',
         ],
@@ -756,6 +748,7 @@ class Route {
         'erapra'         => 'gra',
         'erapraktikum'   => 'gra',
         'ezs'            => 'rts',
+        'finder'         => 'nav',
         'gdb'            => 'db',
         'gpp'            => 'pgdp',
         'hsw'            => 'wahl',
@@ -766,6 +759,7 @@ class Route {
         'la'             => 'linalg',
         'latex'          => 'sharelatex',
         'match'          => 'matching',
+        'navigatum'      => 'nav',
         'netz'           => 'grnvs',
         'np'             => 'numprog',
         'pat'            => 'pse',
