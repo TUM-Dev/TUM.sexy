@@ -608,6 +608,10 @@ class Route {
             'description' => 'ShareLaTeX@TUM',
             'target'      => 'https://sharelatex.tum.de',
         ],
+         'slm'              => [
+            'description' => 'Sponsorship-linked marketing',
+            'moodle_id'   => '116958',
+        ],
         'smds'             => [
             'description' => 'Seminar Modern Database Systems',
             'target'      => 'https://db.in.tum.de/teaching/ss25/seminarModernDatabaseSystems/',
