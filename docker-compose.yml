@@ -13,7 +13,7 @@ services:
       - "traefik.http.routers.tumsexy.tls.domains[0].main=tum.sexy"
       - "traefik.http.routers.tumsexy.tls.domains[0].sans=*.tum.sexy"
       - "traefik.http.routers.tumsexy.tls.certresolver=sexyresolver"
-      - "traefik.http.routers.tumsexy.rule=(Host(`tum.sexy`) || HostRegexp(`tum.sexy`, `{subdomain:[a-z0-9\\-]+}.tum.sexy`)) && !Host(`cal.tum.sexy`)"
+      - "traefik.http.routers.tumsexy.rule=(Host(`tum.sexy`) || HostRegexp(`^[a-z0-9\\-]+\\.tum\\.sexy$`)) && !Host(`cal.tum.sexy`)"
       - "traefik.http.services.tumsexy.loadbalancer.server.port=80"
     healthcheck:
       test: wget -q --spider http://localhost:80/img/pin-material.svg
