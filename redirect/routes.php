@@ -862,6 +862,7 @@ class Route {
             'spaetzle',
             'springer',
             'statista',
+            'stats',
             'tumenu',
             'tval',
             'vorkurs',
