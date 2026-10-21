@@ -517,7 +517,7 @@ class Route {
         ],
         'qo'               => [
             'description' => 'Query Optimization',
-            'target'      => 'https://db.in.tum.de/teaching/ws2526/queryopt/',
+            'target'      => 'https://db.in.tum.de/teaching/ws2627/queryopt/',
         ],
         're'            => [
             'description' => 'Requirements Engineering',
