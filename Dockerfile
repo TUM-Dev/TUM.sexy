@@ -10,6 +10,10 @@ FROM php:8.6.0-apache
 RUN apt update\
  && apt install wget\
  && rm -rf /var/lib/apt/lists/*
+RUN apt update\
+ && apt install -y libonig-dev\
+ && docker-php-ext-install mbstring\
+ && rm -rf /var/lib/apt/lists/*
 RUN a2enmod rewrite
 
 WORKDIR /var/www/html/
